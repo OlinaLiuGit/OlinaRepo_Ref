@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: ParseTechNetPages.Migrations
+  commentId: N:ParseTechNetPages.Migrations
+  id: ParseTechNetPages.Migrations
+  children:
+  - ParseTechNetPages.Migrations._2016070501
+  - ParseTechNetPages.Migrations.InitialCreate
+  langs:
+  - csharp
+  - vb
+  name: ParseTechNetPages.Migrations
+  nameWithType: ParseTechNetPages.Migrations
+  fullName: ParseTechNetPages.Migrations
+  type: Namespace
+  assemblies:
+  - ParseTechNetPages
+references:
+- uid: ParseTechNetPages.Migrations.InitialCreate
+  commentId: T:ParseTechNetPages.Migrations.InitialCreate
+  isExternal: false
+  name: InitialCreate
+  nameWithType: InitialCreate
+  fullName: ParseTechNetPages.Migrations.InitialCreate
+- uid: ParseTechNetPages.Migrations._2016070501
+  commentId: T:ParseTechNetPages.Migrations._2016070501
+  isExternal: false
+  name: _2016070501
+  nameWithType: _2016070501
+  fullName: ParseTechNetPages.Migrations._2016070501

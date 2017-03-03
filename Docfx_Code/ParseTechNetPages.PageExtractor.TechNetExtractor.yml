@@ -1,0 +1,1479 @@
+### YamlMime:ManagedReference
+items:
+- uid: ParseTechNetPages.PageExtractor.TechNetExtractor
+  commentId: T:ParseTechNetPages.PageExtractor.TechNetExtractor
+  id: TechNetExtractor
+  parent: ParseTechNetPages.PageExtractor
+  children:
+  - ParseTechNetPages.PageExtractor.TechNetExtractor.#ctor(System.String)
+  - ParseTechNetPages.PageExtractor.TechNetExtractor.AbandonWebElements
+  - ParseTechNetPages.PageExtractor.TechNetExtractor.ChildrenDictionary
+  - ParseTechNetPages.PageExtractor.TechNetExtractor.CurrentTocNode
+  - ParseTechNetPages.PageExtractor.TechNetExtractor.InitializeAdd
+  - ParseTechNetPages.PageExtractor.TechNetExtractor.InitializeChildrenList(ParseTechNetPages.Data_Model.TechNetModel)
+  - ParseTechNetPages.PageExtractor.TechNetExtractor.NewChildrenList
+  - ParseTechNetPages.PageExtractor.TechNetExtractor.SameNode
+  - ParseTechNetPages.PageExtractor.TechNetExtractor.TechNetContext
+  - ParseTechNetPages.PageExtractor.TechNetExtractor.TechTocCollection
+  - ParseTechNetPages.PageExtractor.TechNetExtractor.TestInterface
+  - ParseTechNetPages.PageExtractor.TechNetExtractor.TocIndex
+  - ParseTechNetPages.PageExtractor.TechNetExtractor.TryGetTechNetStructure(ParseTechNetPages.Data_Model.TechNetModel,ParseTechNetPages.Data_Model.TechNetModel,System.Collections.Generic.Dictionary{System.String,ParseTechNetPages.Data_Model.TechNetModel})
+  langs:
+  - csharp
+  - vb
+  name: TechNetExtractor
+  nameWithType: TechNetExtractor
+  fullName: ParseTechNetPages.PageExtractor.TechNetExtractor
+  type: Class
+  source:
+    id: TechNetExtractor
+    path: E:\Test\CATS\ParsePages\ParseTechNetPages\PageExtractor\TechNetExtractor.cs
+    startLine: 24
+  assemblies:
+  - ParseTechNetPages
+  namespace: ParseTechNetPages.PageExtractor
+  syntax:
+    content: public class TechNetExtractor
+    content.vb: Public Class TechNetExtractor
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - ParseTechNetPages.PageExtractor.TechNetExtractor.ParseCommon.Utilities.SerializeXml``1
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: ParseTechNetPages.PageExtractor.TechNetExtractor.TestInterface
+  commentId: P:ParseTechNetPages.PageExtractor.TechNetExtractor.TestInterface
+  id: TestInterface
+  parent: ParseTechNetPages.PageExtractor.TechNetExtractor
+  langs:
+  - csharp
+  - vb
+  name: TestInterface
+  nameWithType: TechNetExtractor.TestInterface
+  fullName: ParseTechNetPages.PageExtractor.TechNetExtractor.TestInterface
+  type: Property
+  source:
+    id: TestInterface
+    path: E:\Test\CATS\ParsePages\ParseTechNetPages\PageExtractor\TechNetExtractor.cs
+    startLine: 26
+  assemblies:
+  - ParseTechNetPages
+  namespace: ParseTechNetPages.PageExtractor
+  syntax:
+    content: public WebInterface TestInterface { get; set; }
+    content.vb: Public Property TestInterface As WebInterface
+    parameters: []
+    return:
+      type: ParseTechNetPages.WebInterface
+  overload: ParseTechNetPages.PageExtractor.TechNetExtractor.TestInterface*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: ParseTechNetPages.PageExtractor.TechNetExtractor.CurrentTocNode
+  commentId: P:ParseTechNetPages.PageExtractor.TechNetExtractor.CurrentTocNode
+  id: CurrentTocNode
+  parent: ParseTechNetPages.PageExtractor.TechNetExtractor
+  langs:
+  - csharp
+  - vb
+  name: CurrentTocNode
+  nameWithType: TechNetExtractor.CurrentTocNode
+  fullName: ParseTechNetPages.PageExtractor.TechNetExtractor.CurrentTocNode
+  type: Property
+  source:
+    id: CurrentTocNode
+    path: E:\Test\CATS\ParsePages\ParseTechNetPages\PageExtractor\TechNetExtractor.cs
+    startLine: 28
+  assemblies:
+  - ParseTechNetPages
+  namespace: ParseTechNetPages.PageExtractor
+  syntax:
+    content: public IWebElement CurrentTocNode { get; set; }
+    content.vb: Public Property CurrentTocNode As IWebElement
+    parameters: []
+    return:
+      type: OpenQA.Selenium.IWebElement
+  overload: ParseTechNetPages.PageExtractor.TechNetExtractor.CurrentTocNode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: ParseTechNetPages.PageExtractor.TechNetExtractor.TechNetContext
+  commentId: P:ParseTechNetPages.PageExtractor.TechNetExtractor.TechNetContext
+  id: TechNetContext
+  parent: ParseTechNetPages.PageExtractor.TechNetExtractor
+  langs:
+  - csharp
+  - vb
+  name: TechNetContext
+  nameWithType: TechNetExtractor.TechNetContext
+  fullName: ParseTechNetPages.PageExtractor.TechNetExtractor.TechNetContext
+  type: Property
+  source:
+    id: TechNetContext
+    path: E:\Test\CATS\ParsePages\ParseTechNetPages\PageExtractor\TechNetExtractor.cs
+    startLine: 30
+  assemblies:
+  - ParseTechNetPages
+  namespace: ParseTechNetPages.PageExtractor
+  syntax:
+    content: public ParseTechNetContext TechNetContext { get; set; }
+    content.vb: Public Property TechNetContext As ParseTechNetContext
+    parameters: []
+    return:
+      type: ParseTechNetPages.DAL.ParseTechNetContext
+  overload: ParseTechNetPages.PageExtractor.TechNetExtractor.TechNetContext*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: ParseTechNetPages.PageExtractor.TechNetExtractor.TechTocCollection
+  commentId: P:ParseTechNetPages.PageExtractor.TechNetExtractor.TechTocCollection
+  id: TechTocCollection
+  parent: ParseTechNetPages.PageExtractor.TechNetExtractor
+  langs:
+  - csharp
+  - vb
+  name: TechTocCollection
+  nameWithType: TechNetExtractor.TechTocCollection
+  fullName: ParseTechNetPages.PageExtractor.TechNetExtractor.TechTocCollection
+  type: Property
+  source:
+    id: TechTocCollection
+    path: E:\Test\CATS\ParsePages\ParseTechNetPages\PageExtractor\TechNetExtractor.cs
+    startLine: 32
+  assemblies:
+  - ParseTechNetPages
+  namespace: ParseTechNetPages.PageExtractor
+  syntax:
+    content: public ReadOnlyCollection<IWebElement> TechTocCollection { get; set; }
+    content.vb: Public Property TechTocCollection As ReadOnlyCollection(Of IWebElement)
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ReadOnlyCollection{OpenQA.Selenium.IWebElement}
+  overload: ParseTechNetPages.PageExtractor.TechNetExtractor.TechTocCollection*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: ParseTechNetPages.PageExtractor.TechNetExtractor.TocIndex
+  commentId: P:ParseTechNetPages.PageExtractor.TechNetExtractor.TocIndex
+  id: TocIndex
+  parent: ParseTechNetPages.PageExtractor.TechNetExtractor
+  langs:
+  - csharp
+  - vb
+  name: TocIndex
+  nameWithType: TechNetExtractor.TocIndex
+  fullName: ParseTechNetPages.PageExtractor.TechNetExtractor.TocIndex
+  type: Property
+  source:
+    id: TocIndex
+    path: E:\Test\CATS\ParsePages\ParseTechNetPages\PageExtractor\TechNetExtractor.cs
+    startLine: 34
+  assemblies:
+  - ParseTechNetPages
+  namespace: ParseTechNetPages.PageExtractor
+  syntax:
+    content: public int TocIndex { get; set; }
+    content.vb: Public Property TocIndex As Integer
+    parameters: []
+    return:
+      type: System.Int32
+  overload: ParseTechNetPages.PageExtractor.TechNetExtractor.TocIndex*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: ParseTechNetPages.PageExtractor.TechNetExtractor.ChildrenDictionary
+  commentId: P:ParseTechNetPages.PageExtractor.TechNetExtractor.ChildrenDictionary
+  id: ChildrenDictionary
+  parent: ParseTechNetPages.PageExtractor.TechNetExtractor
+  langs:
+  - csharp
+  - vb
+  name: ChildrenDictionary
+  nameWithType: TechNetExtractor.ChildrenDictionary
+  fullName: ParseTechNetPages.PageExtractor.TechNetExtractor.ChildrenDictionary
+  type: Property
+  source:
+    id: ChildrenDictionary
+    path: E:\Test\CATS\ParsePages\ParseTechNetPages\PageExtractor\TechNetExtractor.cs
+    startLine: 36
+  assemblies:
+  - ParseTechNetPages
+  namespace: ParseTechNetPages.PageExtractor
+  syntax:
+    content: public Dictionary<IWebElement, int> ChildrenDictionary { get; set; }
+    content.vb: Public Property ChildrenDictionary As Dictionary(Of IWebElement, Integer)
+    parameters: []
+    return:
+      type: System.Collections.Generic.Dictionary{OpenQA.Selenium.IWebElement,System.Int32}
+  overload: ParseTechNetPages.PageExtractor.TechNetExtractor.ChildrenDictionary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: ParseTechNetPages.PageExtractor.TechNetExtractor.NewChildrenList
+  commentId: P:ParseTechNetPages.PageExtractor.TechNetExtractor.NewChildrenList
+  id: NewChildrenList
+  parent: ParseTechNetPages.PageExtractor.TechNetExtractor
+  langs:
+  - csharp
+  - vb
+  name: NewChildrenList
+  nameWithType: TechNetExtractor.NewChildrenList
+  fullName: ParseTechNetPages.PageExtractor.TechNetExtractor.NewChildrenList
+  type: Property
+  source:
+    id: NewChildrenList
+    path: E:\Test\CATS\ParsePages\ParseTechNetPages\PageExtractor\TechNetExtractor.cs
+    startLine: 38
+  assemblies:
+  - ParseTechNetPages
+  namespace: ParseTechNetPages.PageExtractor
+  syntax:
+    content: public List<IWebElement> NewChildrenList { get; set; }
+    content.vb: Public Property NewChildrenList As List(Of IWebElement)
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{OpenQA.Selenium.IWebElement}
+  overload: ParseTechNetPages.PageExtractor.TechNetExtractor.NewChildrenList*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: ParseTechNetPages.PageExtractor.TechNetExtractor.AbandonWebElements
+  commentId: P:ParseTechNetPages.PageExtractor.TechNetExtractor.AbandonWebElements
+  id: AbandonWebElements
+  parent: ParseTechNetPages.PageExtractor.TechNetExtractor
+  langs:
+  - csharp
+  - vb
+  name: AbandonWebElements
+  nameWithType: TechNetExtractor.AbandonWebElements
+  fullName: ParseTechNetPages.PageExtractor.TechNetExtractor.AbandonWebElements
+  type: Property
+  source:
+    id: AbandonWebElements
+    path: E:\Test\CATS\ParsePages\ParseTechNetPages\PageExtractor\TechNetExtractor.cs
+    startLine: 40
+  assemblies:
+  - ParseTechNetPages
+  namespace: ParseTechNetPages.PageExtractor
+  syntax:
+    content: public List<IWebElement> AbandonWebElements { get; set; }
+    content.vb: Public Property AbandonWebElements As List(Of IWebElement)
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{OpenQA.Selenium.IWebElement}
+  overload: ParseTechNetPages.PageExtractor.TechNetExtractor.AbandonWebElements*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: ParseTechNetPages.PageExtractor.TechNetExtractor.SameNode
+  commentId: F:ParseTechNetPages.PageExtractor.TechNetExtractor.SameNode
+  id: SameNode
+  parent: ParseTechNetPages.PageExtractor.TechNetExtractor
+  langs:
+  - csharp
+  - vb
+  name: SameNode
+  nameWithType: TechNetExtractor.SameNode
+  fullName: ParseTechNetPages.PageExtractor.TechNetExtractor.SameNode
+  type: Field
+  source:
+    id: SameNode
+    path: E:\Test\CATS\ParsePages\ParseTechNetPages\PageExtractor\TechNetExtractor.cs
+    startLine: 42
+  assemblies:
+  - ParseTechNetPages
+  namespace: ParseTechNetPages.PageExtractor
+  syntax:
+    content: public Dictionary<Dictionary<IWebElement, int>, Dictionary<IWebElement, int>> SameNode
+    content.vb: Public SameNode As Dictionary(Of Dictionary(Of IWebElement, Integer), Dictionary(Of IWebElement, Integer))
+    return:
+      type: System.Collections.Generic.Dictionary{System.Collections.Generic.Dictionary{OpenQA.Selenium.IWebElement,System.Int32},System.Collections.Generic.Dictionary{OpenQA.Selenium.IWebElement,System.Int32}}
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: ParseTechNetPages.PageExtractor.TechNetExtractor.InitializeAdd
+  commentId: P:ParseTechNetPages.PageExtractor.TechNetExtractor.InitializeAdd
+  id: InitializeAdd
+  parent: ParseTechNetPages.PageExtractor.TechNetExtractor
+  langs:
+  - csharp
+  - vb
+  name: InitializeAdd
+  nameWithType: TechNetExtractor.InitializeAdd
+  fullName: ParseTechNetPages.PageExtractor.TechNetExtractor.InitializeAdd
+  type: Property
+  source:
+    id: InitializeAdd
+    path: E:\Test\CATS\ParsePages\ParseTechNetPages\PageExtractor\TechNetExtractor.cs
+    startLine: 44
+  assemblies:
+  - ParseTechNetPages
+  namespace: ParseTechNetPages.PageExtractor
+  syntax:
+    content: public bool InitializeAdd { get; set; }
+    content.vb: Public Property InitializeAdd As Boolean
+    parameters: []
+    return:
+      type: System.Boolean
+  overload: ParseTechNetPages.PageExtractor.TechNetExtractor.InitializeAdd*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: ParseTechNetPages.PageExtractor.TechNetExtractor.#ctor(System.String)
+  commentId: M:ParseTechNetPages.PageExtractor.TechNetExtractor.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: ParseTechNetPages.PageExtractor.TechNetExtractor
+  langs:
+  - csharp
+  - vb
+  name: TechNetExtractor(String)
+  nameWithType: TechNetExtractor.TechNetExtractor(String)
+  fullName: ParseTechNetPages.PageExtractor.TechNetExtractor.TechNetExtractor(System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: E:\Test\CATS\ParsePages\ParseTechNetPages\PageExtractor\TechNetExtractor.cs
+    startLine: 46
+  assemblies:
+  - ParseTechNetPages
+  namespace: ParseTechNetPages.PageExtractor
+  syntax:
+    content: public TechNetExtractor(string url)
+    content.vb: Public Sub New(url As String)
+    parameters:
+    - id: url
+      type: System.String
+  overload: ParseTechNetPages.PageExtractor.TechNetExtractor.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: ParseTechNetPages.PageExtractor.TechNetExtractor.TryGetTechNetStructure(ParseTechNetPages.Data_Model.TechNetModel,ParseTechNetPages.Data_Model.TechNetModel,System.Collections.Generic.Dictionary{System.String,ParseTechNetPages.Data_Model.TechNetModel})
+  commentId: M:ParseTechNetPages.PageExtractor.TechNetExtractor.TryGetTechNetStructure(ParseTechNetPages.Data_Model.TechNetModel,ParseTechNetPages.Data_Model.TechNetModel,System.Collections.Generic.Dictionary{System.String,ParseTechNetPages.Data_Model.TechNetModel})
+  id: TryGetTechNetStructure(ParseTechNetPages.Data_Model.TechNetModel,ParseTechNetPages.Data_Model.TechNetModel,System.Collections.Generic.Dictionary{System.String,ParseTechNetPages.Data_Model.TechNetModel})
+  parent: ParseTechNetPages.PageExtractor.TechNetExtractor
+  langs:
+  - csharp
+  - vb
+  name: TryGetTechNetStructure(TechNetModel, TechNetModel, Dictionary<String, TechNetModel>)
+  nameWithType: TechNetExtractor.TryGetTechNetStructure(TechNetModel, TechNetModel, Dictionary<String, TechNetModel>)
+  fullName: ParseTechNetPages.PageExtractor.TechNetExtractor.TryGetTechNetStructure(ParseTechNetPages.Data_Model.TechNetModel, ParseTechNetPages.Data_Model.TechNetModel, System.Collections.Generic.Dictionary<System.String, ParseTechNetPages.Data_Model.TechNetModel>)
+  type: Method
+  source:
+    id: TryGetTechNetStructure
+    path: E:\Test\CATS\ParsePages\ParseTechNetPages\PageExtractor\TechNetExtractor.cs
+    startLine: 58
+  assemblies:
+  - ParseTechNetPages
+  namespace: ParseTechNetPages.PageExtractor
+  syntax:
+    content: public Task TryGetTechNetStructure(TechNetModel techModel, TechNetModel parent, Dictionary<string, TechNetModel> result)
+    content.vb: Public Function TryGetTechNetStructure(techModel As TechNetModel, parent As TechNetModel, result As Dictionary(Of String, TechNetModel)) As Task
+    parameters:
+    - id: techModel
+      type: ParseTechNetPages.Data_Model.TechNetModel
+    - id: parent
+      type: ParseTechNetPages.Data_Model.TechNetModel
+    - id: result
+      type: System.Collections.Generic.Dictionary{System.String,ParseTechNetPages.Data_Model.TechNetModel}
+    return:
+      type: System.Threading.Tasks.Task
+  overload: ParseTechNetPages.PageExtractor.TechNetExtractor.TryGetTechNetStructure*
+  nameWithType.vb: TechNetExtractor.TryGetTechNetStructure(TechNetModel, TechNetModel, Dictionary(Of String, TechNetModel))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: ParseTechNetPages.PageExtractor.TechNetExtractor.TryGetTechNetStructure(ParseTechNetPages.Data_Model.TechNetModel, ParseTechNetPages.Data_Model.TechNetModel, System.Collections.Generic.Dictionary(Of System.String, ParseTechNetPages.Data_Model.TechNetModel))
+  name.vb: TryGetTechNetStructure(TechNetModel, TechNetModel, Dictionary(Of String, TechNetModel))
+- uid: ParseTechNetPages.PageExtractor.TechNetExtractor.InitializeChildrenList(ParseTechNetPages.Data_Model.TechNetModel)
+  commentId: M:ParseTechNetPages.PageExtractor.TechNetExtractor.InitializeChildrenList(ParseTechNetPages.Data_Model.TechNetModel)
+  id: InitializeChildrenList(ParseTechNetPages.Data_Model.TechNetModel)
+  parent: ParseTechNetPages.PageExtractor.TechNetExtractor
+  langs:
+  - csharp
+  - vb
+  name: InitializeChildrenList(TechNetModel)
+  nameWithType: TechNetExtractor.InitializeChildrenList(TechNetModel)
+  fullName: ParseTechNetPages.PageExtractor.TechNetExtractor.InitializeChildrenList(ParseTechNetPages.Data_Model.TechNetModel)
+  type: Method
+  source:
+    id: InitializeChildrenList
+    path: E:\Test\CATS\ParsePages\ParseTechNetPages\PageExtractor\TechNetExtractor.cs
+    startLine: 138
+  assemblies:
+  - ParseTechNetPages
+  namespace: ParseTechNetPages.PageExtractor
+  syntax:
+    content: public void InitializeChildrenList(TechNetModel techModel)
+    content.vb: Public Sub InitializeChildrenList(techModel As TechNetModel)
+    parameters:
+    - id: techModel
+      type: ParseTechNetPages.Data_Model.TechNetModel
+  overload: ParseTechNetPages.PageExtractor.TechNetExtractor.InitializeChildrenList*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: ParseTechNetPages.PageExtractor
+  commentId: N:ParseTechNetPages.PageExtractor
+  isExternal: false
+  name: ParseTechNetPages.PageExtractor
+  nameWithType: ParseTechNetPages.PageExtractor
+  fullName: ParseTechNetPages.PageExtractor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ParseTechNetPages.PageExtractor.TechNetExtractor.ParseCommon.Utilities.SerializeXml``1
+  commentId: M:ParseCommon.Utilities.SerializeXml``1(``0)
+  parent: ParseCommon.Utilities
+  definition: ParseCommon.Utilities.SerializeXml``1(``0)
+  name: SerializeXml<TechNetExtractor>()
+  nameWithType: Utilities.SerializeXml<TechNetExtractor>()
+  fullName: ParseCommon.Utilities.SerializeXml<ParseTechNetPages.PageExtractor.TechNetExtractor>()
+  nameWithType.vb: Utilities.SerializeXml(Of TechNetExtractor)()
+  fullName.vb: ParseCommon.Utilities.SerializeXml(Of ParseTechNetPages.PageExtractor.TechNetExtractor)()
+  name.vb: SerializeXml(Of TechNetExtractor)()
+  spec.csharp:
+  - uid: ParseCommon.Utilities.SerializeXml``1
+    name: SerializeXml<TechNetExtractor>
+    nameWithType: Utilities.SerializeXml<TechNetExtractor>
+    fullName: ParseCommon.Utilities.SerializeXml<ParseTechNetPages.PageExtractor.TechNetExtractor>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: ParseCommon.Utilities.SerializeXml``1
+    name: SerializeXml(Of TechNetExtractor)
+    nameWithType: Utilities.SerializeXml(Of TechNetExtractor)
+    fullName: ParseCommon.Utilities.SerializeXml(Of ParseTechNetPages.PageExtractor.TechNetExtractor)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ParseCommon.Utilities.SerializeXml``1(``0)
+  commentId: M:ParseCommon.Utilities.SerializeXml``1(``0)
+  isExternal: false
+  name: SerializeXml<T>(T)
+  nameWithType: Utilities.SerializeXml<T>(T)
+  fullName: ParseCommon.Utilities.SerializeXml<T>(T)
+  nameWithType.vb: Utilities.SerializeXml(Of T)(T)
+  fullName.vb: ParseCommon.Utilities.SerializeXml(Of T)(T)
+  name.vb: SerializeXml(Of T)(T)
+  spec.csharp:
+  - uid: ParseCommon.Utilities.SerializeXml``1(``0)
+    name: SerializeXml<T>
+    nameWithType: Utilities.SerializeXml<T>
+    fullName: ParseCommon.Utilities.SerializeXml<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: ParseCommon.Utilities.SerializeXml``1(``0)
+    name: SerializeXml(Of T)
+    nameWithType: Utilities.SerializeXml(Of T)
+    fullName: ParseCommon.Utilities.SerializeXml(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ParseCommon.Utilities
+  commentId: T:ParseCommon.Utilities
+  parent: ParseCommon
+  isExternal: false
+  name: Utilities
+  nameWithType: Utilities
+  fullName: ParseCommon.Utilities
+- uid: ParseCommon
+  commentId: N:ParseCommon
+  isExternal: false
+  name: ParseCommon
+  nameWithType: ParseCommon
+  fullName: ParseCommon
+- uid: ParseTechNetPages.PageExtractor.TechNetExtractor.TestInterface*
+  commentId: Overload:ParseTechNetPages.PageExtractor.TechNetExtractor.TestInterface
+  isExternal: false
+  name: TestInterface
+  nameWithType: TechNetExtractor.TestInterface
+  fullName: ParseTechNetPages.PageExtractor.TechNetExtractor.TestInterface
+- uid: ParseTechNetPages.WebInterface
+  commentId: T:ParseTechNetPages.WebInterface
+  parent: ParseTechNetPages
+  isExternal: false
+  name: WebInterface
+  nameWithType: WebInterface
+  fullName: ParseTechNetPages.WebInterface
+- uid: ParseTechNetPages
+  commentId: N:ParseTechNetPages
+  isExternal: false
+  name: ParseTechNetPages
+  nameWithType: ParseTechNetPages
+  fullName: ParseTechNetPages
+- uid: ParseTechNetPages.PageExtractor.TechNetExtractor.CurrentTocNode*
+  commentId: Overload:ParseTechNetPages.PageExtractor.TechNetExtractor.CurrentTocNode
+  isExternal: false
+  name: CurrentTocNode
+  nameWithType: TechNetExtractor.CurrentTocNode
+  fullName: ParseTechNetPages.PageExtractor.TechNetExtractor.CurrentTocNode
+- uid: OpenQA.Selenium.IWebElement
+  commentId: T:OpenQA.Selenium.IWebElement
+  parent: OpenQA.Selenium
+  isExternal: true
+  name: IWebElement
+  nameWithType: IWebElement
+  fullName: OpenQA.Selenium.IWebElement
+- uid: OpenQA.Selenium
+  commentId: N:OpenQA.Selenium
+  isExternal: false
+  name: OpenQA.Selenium
+  nameWithType: OpenQA.Selenium
+  fullName: OpenQA.Selenium
+- uid: ParseTechNetPages.PageExtractor.TechNetExtractor.TechNetContext*
+  commentId: Overload:ParseTechNetPages.PageExtractor.TechNetExtractor.TechNetContext
+  isExternal: false
+  name: TechNetContext
+  nameWithType: TechNetExtractor.TechNetContext
+  fullName: ParseTechNetPages.PageExtractor.TechNetExtractor.TechNetContext
+- uid: ParseTechNetPages.DAL.ParseTechNetContext
+  commentId: T:ParseTechNetPages.DAL.ParseTechNetContext
+  parent: ParseTechNetPages.DAL
+  isExternal: false
+  name: ParseTechNetContext
+  nameWithType: ParseTechNetContext
+  fullName: ParseTechNetPages.DAL.ParseTechNetContext
+- uid: ParseTechNetPages.DAL
+  commentId: N:ParseTechNetPages.DAL
+  isExternal: false
+  name: ParseTechNetPages.DAL
+  nameWithType: ParseTechNetPages.DAL
+  fullName: ParseTechNetPages.DAL
+- uid: ParseTechNetPages.PageExtractor.TechNetExtractor.TechTocCollection*
+  commentId: Overload:ParseTechNetPages.PageExtractor.TechNetExtractor.TechTocCollection
+  isExternal: false
+  name: TechTocCollection
+  nameWithType: TechNetExtractor.TechTocCollection
+  fullName: ParseTechNetPages.PageExtractor.TechNetExtractor.TechTocCollection
+- uid: System.Collections.ObjectModel.ReadOnlyCollection{OpenQA.Selenium.IWebElement}
+  commentId: T:System.Collections.ObjectModel.ReadOnlyCollection{OpenQA.Selenium.IWebElement}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ReadOnlyCollection`1
+  name: ReadOnlyCollection<IWebElement>
+  nameWithType: ReadOnlyCollection<IWebElement>
+  fullName: System.Collections.ObjectModel.ReadOnlyCollection<OpenQA.Selenium.IWebElement>
+  nameWithType.vb: ReadOnlyCollection(Of IWebElement)
+  fullName.vb: System.Collections.ObjectModel.ReadOnlyCollection(Of OpenQA.Selenium.IWebElement)
+  name.vb: ReadOnlyCollection(Of IWebElement)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection
+    nameWithType: ReadOnlyCollection
+    fullName: System.Collections.ObjectModel.ReadOnlyCollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenQA.Selenium.IWebElement
+    name: IWebElement
+    nameWithType: IWebElement
+    fullName: OpenQA.Selenium.IWebElement
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection
+    nameWithType: ReadOnlyCollection
+    fullName: System.Collections.ObjectModel.ReadOnlyCollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenQA.Selenium.IWebElement
+    name: IWebElement
+    nameWithType: IWebElement
+    fullName: OpenQA.Selenium.IWebElement
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+  commentId: T:System.Collections.ObjectModel.ReadOnlyCollection`1
+  isExternal: true
+  name: ReadOnlyCollection<T>
+  nameWithType: ReadOnlyCollection<T>
+  fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>
+  nameWithType.vb: ReadOnlyCollection(Of T)
+  fullName.vb: System.Collections.ObjectModel.ReadOnlyCollection(Of T)
+  name.vb: ReadOnlyCollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection
+    nameWithType: ReadOnlyCollection
+    fullName: System.Collections.ObjectModel.ReadOnlyCollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection
+    nameWithType: ReadOnlyCollection
+    fullName: System.Collections.ObjectModel.ReadOnlyCollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ObjectModel
+  commentId: N:System.Collections.ObjectModel
+  isExternal: false
+  name: System.Collections.ObjectModel
+  nameWithType: System.Collections.ObjectModel
+  fullName: System.Collections.ObjectModel
+- uid: ParseTechNetPages.PageExtractor.TechNetExtractor.TocIndex*
+  commentId: Overload:ParseTechNetPages.PageExtractor.TechNetExtractor.TocIndex
+  isExternal: false
+  name: TocIndex
+  nameWithType: TechNetExtractor.TocIndex
+  fullName: ParseTechNetPages.PageExtractor.TechNetExtractor.TocIndex
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: ParseTechNetPages.PageExtractor.TechNetExtractor.ChildrenDictionary*
+  commentId: Overload:ParseTechNetPages.PageExtractor.TechNetExtractor.ChildrenDictionary
+  isExternal: false
+  name: ChildrenDictionary
+  nameWithType: TechNetExtractor.ChildrenDictionary
+  fullName: ParseTechNetPages.PageExtractor.TechNetExtractor.ChildrenDictionary
+- uid: System.Collections.Generic.Dictionary{OpenQA.Selenium.IWebElement,System.Int32}
+  commentId: T:System.Collections.Generic.Dictionary{OpenQA.Selenium.IWebElement,System.Int32}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<IWebElement, Int32>
+  nameWithType: Dictionary<IWebElement, Int32>
+  fullName: System.Collections.Generic.Dictionary<OpenQA.Selenium.IWebElement, System.Int32>
+  nameWithType.vb: Dictionary(Of IWebElement, Int32)
+  fullName.vb: System.Collections.Generic.Dictionary(Of OpenQA.Selenium.IWebElement, System.Int32)
+  name.vb: Dictionary(Of IWebElement, Int32)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenQA.Selenium.IWebElement
+    name: IWebElement
+    nameWithType: IWebElement
+    fullName: OpenQA.Selenium.IWebElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenQA.Selenium.IWebElement
+    name: IWebElement
+    nameWithType: IWebElement
+    fullName: OpenQA.Selenium.IWebElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: false
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: ParseTechNetPages.PageExtractor.TechNetExtractor.NewChildrenList*
+  commentId: Overload:ParseTechNetPages.PageExtractor.TechNetExtractor.NewChildrenList
+  isExternal: false
+  name: NewChildrenList
+  nameWithType: TechNetExtractor.NewChildrenList
+  fullName: ParseTechNetPages.PageExtractor.TechNetExtractor.NewChildrenList
+- uid: System.Collections.Generic.List{OpenQA.Selenium.IWebElement}
+  commentId: T:System.Collections.Generic.List{OpenQA.Selenium.IWebElement}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<IWebElement>
+  nameWithType: List<IWebElement>
+  fullName: System.Collections.Generic.List<OpenQA.Selenium.IWebElement>
+  nameWithType.vb: List(Of IWebElement)
+  fullName.vb: System.Collections.Generic.List(Of OpenQA.Selenium.IWebElement)
+  name.vb: List(Of IWebElement)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenQA.Selenium.IWebElement
+    name: IWebElement
+    nameWithType: IWebElement
+    fullName: OpenQA.Selenium.IWebElement
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenQA.Selenium.IWebElement
+    name: IWebElement
+    nameWithType: IWebElement
+    fullName: OpenQA.Selenium.IWebElement
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ParseTechNetPages.PageExtractor.TechNetExtractor.AbandonWebElements*
+  commentId: Overload:ParseTechNetPages.PageExtractor.TechNetExtractor.AbandonWebElements
+  isExternal: false
+  name: AbandonWebElements
+  nameWithType: TechNetExtractor.AbandonWebElements
+  fullName: ParseTechNetPages.PageExtractor.TechNetExtractor.AbandonWebElements
+- uid: System.Collections.Generic.Dictionary{System.Collections.Generic.Dictionary{OpenQA.Selenium.IWebElement,System.Int32},System.Collections.Generic.Dictionary{OpenQA.Selenium.IWebElement,System.Int32}}
+  commentId: T:System.Collections.Generic.Dictionary{System.Collections.Generic.Dictionary{OpenQA.Selenium.IWebElement,System.Int32},System.Collections.Generic.Dictionary{OpenQA.Selenium.IWebElement,System.Int32}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<Dictionary<IWebElement, Int32>, Dictionary<IWebElement, Int32>>
+  nameWithType: Dictionary<Dictionary<IWebElement, Int32>, Dictionary<IWebElement, Int32>>
+  fullName: System.Collections.Generic.Dictionary<System.Collections.Generic.Dictionary<OpenQA.Selenium.IWebElement, System.Int32>, System.Collections.Generic.Dictionary<OpenQA.Selenium.IWebElement, System.Int32>>
+  nameWithType.vb: Dictionary(Of Dictionary(Of IWebElement, Int32), Dictionary(Of IWebElement, Int32))
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.Collections.Generic.Dictionary(Of OpenQA.Selenium.IWebElement, System.Int32), System.Collections.Generic.Dictionary(Of OpenQA.Selenium.IWebElement, System.Int32))
+  name.vb: Dictionary(Of Dictionary(Of IWebElement, Int32), Dictionary(Of IWebElement, Int32))
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenQA.Selenium.IWebElement
+    name: IWebElement
+    nameWithType: IWebElement
+    fullName: OpenQA.Selenium.IWebElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenQA.Selenium.IWebElement
+    name: IWebElement
+    nameWithType: IWebElement
+    fullName: OpenQA.Selenium.IWebElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenQA.Selenium.IWebElement
+    name: IWebElement
+    nameWithType: IWebElement
+    fullName: OpenQA.Selenium.IWebElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenQA.Selenium.IWebElement
+    name: IWebElement
+    nameWithType: IWebElement
+    fullName: OpenQA.Selenium.IWebElement
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ParseTechNetPages.PageExtractor.TechNetExtractor.InitializeAdd*
+  commentId: Overload:ParseTechNetPages.PageExtractor.TechNetExtractor.InitializeAdd
+  isExternal: false
+  name: InitializeAdd
+  nameWithType: TechNetExtractor.InitializeAdd
+  fullName: ParseTechNetPages.PageExtractor.TechNetExtractor.InitializeAdd
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: ParseTechNetPages.PageExtractor.TechNetExtractor.#ctor*
+  commentId: Overload:ParseTechNetPages.PageExtractor.TechNetExtractor.#ctor
+  isExternal: false
+  name: TechNetExtractor
+  nameWithType: TechNetExtractor.TechNetExtractor
+  fullName: ParseTechNetPages.PageExtractor.TechNetExtractor.TechNetExtractor
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: ParseTechNetPages.PageExtractor.TechNetExtractor.TryGetTechNetStructure*
+  commentId: Overload:ParseTechNetPages.PageExtractor.TechNetExtractor.TryGetTechNetStructure
+  isExternal: false
+  name: TryGetTechNetStructure
+  nameWithType: TechNetExtractor.TryGetTechNetStructure
+  fullName: ParseTechNetPages.PageExtractor.TechNetExtractor.TryGetTechNetStructure
+- uid: ParseTechNetPages.Data_Model.TechNetModel
+  commentId: T:ParseTechNetPages.Data_Model.TechNetModel
+  parent: ParseTechNetPages.Data_Model
+  isExternal: false
+  name: TechNetModel
+  nameWithType: TechNetModel
+  fullName: ParseTechNetPages.Data_Model.TechNetModel
+- uid: System.Collections.Generic.Dictionary{System.String,ParseTechNetPages.Data_Model.TechNetModel}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,ParseTechNetPages.Data_Model.TechNetModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, TechNetModel>
+  nameWithType: Dictionary<String, TechNetModel>
+  fullName: System.Collections.Generic.Dictionary<System.String, ParseTechNetPages.Data_Model.TechNetModel>
+  nameWithType.vb: Dictionary(Of String, TechNetModel)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, ParseTechNetPages.Data_Model.TechNetModel)
+  name.vb: Dictionary(Of String, TechNetModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: ParseTechNetPages.Data_Model.TechNetModel
+    name: TechNetModel
+    nameWithType: TechNetModel
+    fullName: ParseTechNetPages.Data_Model.TechNetModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: ParseTechNetPages.Data_Model.TechNetModel
+    name: TechNetModel
+    nameWithType: TechNetModel
+    fullName: ParseTechNetPages.Data_Model.TechNetModel
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: ParseTechNetPages.Data_Model
+  commentId: N:ParseTechNetPages.Data_Model
+  isExternal: false
+  name: ParseTechNetPages.Data_Model
+  nameWithType: ParseTechNetPages.Data_Model
+  fullName: ParseTechNetPages.Data_Model
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: false
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: ParseTechNetPages.PageExtractor.TechNetExtractor.InitializeChildrenList*
+  commentId: Overload:ParseTechNetPages.PageExtractor.TechNetExtractor.InitializeChildrenList
+  isExternal: false
+  name: InitializeChildrenList
+  nameWithType: TechNetExtractor.InitializeChildrenList
+  fullName: ParseTechNetPages.PageExtractor.TechNetExtractor.InitializeChildrenList

@@ -2,6 +2,10 @@
   "build": {
     "content": [
       {
+        "files": [ "**/*.yml" ],
+        "dest": "api"
+      },
+      {
         "files": [
           "**/*.md"
         ],

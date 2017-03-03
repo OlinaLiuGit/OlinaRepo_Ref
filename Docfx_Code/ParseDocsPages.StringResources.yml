@@ -1,0 +1,571 @@
+### YamlMime:ManagedReference
+items:
+- uid: ParseDocsPages.StringResources
+  commentId: T:ParseDocsPages.StringResources
+  id: StringResources
+  parent: ParseDocsPages
+  children:
+  - ParseDocsPages.StringResources.Authorization
+  - ParseDocsPages.StringResources.Cookie
+  - ParseDocsPages.StringResources.DocsHostPage
+  - ParseDocsPages.StringResources.InputDocsPage
+  - ParseDocsPages.StringResources.OutPutFilePath
+  - ParseDocsPages.StringResources.SaveToExcel
+  - ParseDocsPages.StringResources.TocRelType
+  langs:
+  - csharp
+  - vb
+  name: StringResources
+  nameWithType: StringResources
+  fullName: ParseDocsPages.StringResources
+  type: Class
+  source:
+    id: StringResources
+    path: E:\Test\CATS\ParsePages\ParseDocsPages\StringResources.cs
+    startLine: 9
+  assemblies:
+  - ParseDocsPages
+  namespace: ParseDocsPages
+  syntax:
+    content: public static class StringResources
+    content.vb: Public Module StringResources
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: ParseDocsPages.StringResources.Authorization
+  commentId: F:ParseDocsPages.StringResources.Authorization
+  id: Authorization
+  parent: ParseDocsPages.StringResources
+  langs:
+  - csharp
+  - vb
+  name: Authorization
+  nameWithType: StringResources.Authorization
+  fullName: ParseDocsPages.StringResources.Authorization
+  type: Field
+  source:
+    id: Authorization
+    path: E:\Test\CATS\ParsePages\ParseDocsPages\StringResources.cs
+    startLine: 11
+  assemblies:
+  - ParseDocsPages
+  namespace: ParseDocsPages
+  syntax:
+    content: public static readonly string Authorization
+    content.vb: Public Shared ReadOnly Authorization As String
+    return:
+      type: System.String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: ParseDocsPages.StringResources.InputDocsPage
+  commentId: F:ParseDocsPages.StringResources.InputDocsPage
+  id: InputDocsPage
+  parent: ParseDocsPages.StringResources
+  langs:
+  - csharp
+  - vb
+  name: InputDocsPage
+  nameWithType: StringResources.InputDocsPage
+  fullName: ParseDocsPages.StringResources.InputDocsPage
+  type: Field
+  source:
+    id: InputDocsPage
+    path: E:\Test\CATS\ParsePages\ParseDocsPages\StringResources.cs
+    startLine: 13
+  assemblies:
+  - ParseDocsPages
+  namespace: ParseDocsPages
+  syntax:
+    content: public static readonly string InputDocsPage
+    content.vb: Public Shared ReadOnly InputDocsPage As String
+    return:
+      type: System.String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: ParseDocsPages.StringResources.DocsHostPage
+  commentId: F:ParseDocsPages.StringResources.DocsHostPage
+  id: DocsHostPage
+  parent: ParseDocsPages.StringResources
+  langs:
+  - csharp
+  - vb
+  name: DocsHostPage
+  nameWithType: StringResources.DocsHostPage
+  fullName: ParseDocsPages.StringResources.DocsHostPage
+  type: Field
+  source:
+    id: DocsHostPage
+    path: E:\Test\CATS\ParsePages\ParseDocsPages\StringResources.cs
+    startLine: 15
+  assemblies:
+  - ParseDocsPages
+  namespace: ParseDocsPages
+  syntax:
+    content: public static readonly string DocsHostPage
+    content.vb: Public Shared ReadOnly DocsHostPage As String
+    return:
+      type: System.String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: ParseDocsPages.StringResources.TocRelType
+  commentId: F:ParseDocsPages.StringResources.TocRelType
+  id: TocRelType
+  parent: ParseDocsPages.StringResources
+  langs:
+  - csharp
+  - vb
+  name: TocRelType
+  nameWithType: StringResources.TocRelType
+  fullName: ParseDocsPages.StringResources.TocRelType
+  type: Field
+  source:
+    id: TocRelType
+    path: E:\Test\CATS\ParsePages\ParseDocsPages\StringResources.cs
+    startLine: 17
+  assemblies:
+  - ParseDocsPages
+  namespace: ParseDocsPages
+  syntax:
+    content: public static readonly string TocRelType
+    content.vb: Public Shared ReadOnly TocRelType As String
+    return:
+      type: System.String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: ParseDocsPages.StringResources.Cookie
+  commentId: F:ParseDocsPages.StringResources.Cookie
+  id: Cookie
+  parent: ParseDocsPages.StringResources
+  langs:
+  - csharp
+  - vb
+  name: Cookie
+  nameWithType: StringResources.Cookie
+  fullName: ParseDocsPages.StringResources.Cookie
+  type: Field
+  source:
+    id: Cookie
+    path: E:\Test\CATS\ParsePages\ParseDocsPages\StringResources.cs
+    startLine: 19
+  assemblies:
+  - ParseDocsPages
+  namespace: ParseDocsPages
+  syntax:
+    content: public static readonly string Cookie
+    content.vb: Public Shared ReadOnly Cookie As String
+    return:
+      type: System.String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: ParseDocsPages.StringResources.OutPutFilePath
+  commentId: F:ParseDocsPages.StringResources.OutPutFilePath
+  id: OutPutFilePath
+  parent: ParseDocsPages.StringResources
+  langs:
+  - csharp
+  - vb
+  name: OutPutFilePath
+  nameWithType: StringResources.OutPutFilePath
+  fullName: ParseDocsPages.StringResources.OutPutFilePath
+  type: Field
+  source:
+    id: OutPutFilePath
+    path: E:\Test\CATS\ParsePages\ParseDocsPages\StringResources.cs
+    startLine: 21
+  assemblies:
+  - ParseDocsPages
+  namespace: ParseDocsPages
+  syntax:
+    content: public static readonly string OutPutFilePath
+    content.vb: Public Shared ReadOnly OutPutFilePath As String
+    return:
+      type: System.String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: ParseDocsPages.StringResources.SaveToExcel
+  commentId: F:ParseDocsPages.StringResources.SaveToExcel
+  id: SaveToExcel
+  parent: ParseDocsPages.StringResources
+  langs:
+  - csharp
+  - vb
+  name: SaveToExcel
+  nameWithType: StringResources.SaveToExcel
+  fullName: ParseDocsPages.StringResources.SaveToExcel
+  type: Field
+  source:
+    id: SaveToExcel
+    path: E:\Test\CATS\ParsePages\ParseDocsPages\StringResources.cs
+    startLine: 23
+  assemblies:
+  - ParseDocsPages
+  namespace: ParseDocsPages
+  syntax:
+    content: public static readonly string SaveToExcel
+    content.vb: Public Shared ReadOnly SaveToExcel As String
+    return:
+      type: System.String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: ParseDocsPages
+  commentId: N:ParseDocsPages
+  isExternal: false
+  name: ParseDocsPages
+  nameWithType: ParseDocsPages
+  fullName: ParseDocsPages
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

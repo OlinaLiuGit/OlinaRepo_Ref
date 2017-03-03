@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: ParseDocsPages.DAL
+  commentId: N:ParseDocsPages.DAL
+  id: ParseDocsPages.DAL
+  children:
+  - ParseDocsPages.DAL.ParseDocsDataContext
+  langs:
+  - csharp
+  - vb
+  name: ParseDocsPages.DAL
+  nameWithType: ParseDocsPages.DAL
+  fullName: ParseDocsPages.DAL
+  type: Namespace
+  assemblies:
+  - ParseDocsPages
+references:
+- uid: ParseDocsPages.DAL.ParseDocsDataContext
+  commentId: T:ParseDocsPages.DAL.ParseDocsDataContext
+  isExternal: false
+  name: ParseDocsDataContext
+  nameWithType: ParseDocsDataContext
+  fullName: ParseDocsPages.DAL.ParseDocsDataContext

@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: ParseCommon
+  commentId: N:ParseCommon
+  id: ParseCommon
+  children:
+  - ParseCommon.HttpClient
+  - ParseCommon.ResponseStringModel
+  - ParseCommon.StringExtension
+  - ParseCommon.Utilities
+  langs:
+  - csharp
+  - vb
+  name: ParseCommon
+  nameWithType: ParseCommon
+  fullName: ParseCommon
+  type: Namespace
+  assemblies:
+  - ParseCommon
+references:
+- uid: ParseCommon.HttpClient
+  commentId: T:ParseCommon.HttpClient
+  parent: ParseCommon
+  isExternal: false
+  name: HttpClient
+  nameWithType: HttpClient
+  fullName: ParseCommon.HttpClient
+- uid: ParseCommon.ResponseStringModel
+  commentId: T:ParseCommon.ResponseStringModel
+  parent: ParseCommon
+  isExternal: false
+  name: ResponseStringModel
+  nameWithType: ResponseStringModel
+  fullName: ParseCommon.ResponseStringModel
+- uid: ParseCommon.StringExtension
+  commentId: T:ParseCommon.StringExtension
+  isExternal: false
+  name: StringExtension
+  nameWithType: StringExtension
+  fullName: ParseCommon.StringExtension
+- uid: ParseCommon.Utilities
+  commentId: T:ParseCommon.Utilities
+  parent: ParseCommon
+  isExternal: false
+  name: Utilities
+  nameWithType: Utilities
+  fullName: ParseCommon.Utilities
+- uid: ParseCommon
+  commentId: N:ParseCommon
+  isExternal: false
+  name: ParseCommon
+  nameWithType: ParseCommon
+  fullName: ParseCommon

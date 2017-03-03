@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: ParseTechNetPages.Data_Model
+  commentId: N:ParseTechNetPages.Data_Model
+  id: ParseTechNetPages.Data_Model
+  children:
+  - ParseTechNetPages.Data_Model.TechNetModel
+  langs:
+  - csharp
+  - vb
+  name: ParseTechNetPages.Data_Model
+  nameWithType: ParseTechNetPages.Data_Model
+  fullName: ParseTechNetPages.Data_Model
+  type: Namespace
+  assemblies:
+  - ParseTechNetPages
+references:
+- uid: ParseTechNetPages.Data_Model.TechNetModel
+  commentId: T:ParseTechNetPages.Data_Model.TechNetModel
+  parent: ParseTechNetPages.Data_Model
+  isExternal: false
+  name: TechNetModel
+  nameWithType: TechNetModel
+  fullName: ParseTechNetPages.Data_Model.TechNetModel
+- uid: ParseTechNetPages.Data_Model
+  commentId: N:ParseTechNetPages.Data_Model
+  isExternal: false
+  name: ParseTechNetPages.Data_Model
+  nameWithType: ParseTechNetPages.Data_Model
+  fullName: ParseTechNetPages.Data_Model

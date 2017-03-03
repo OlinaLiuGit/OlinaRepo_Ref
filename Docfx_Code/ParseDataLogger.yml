@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: ParseDataLogger
+  commentId: N:ParseDataLogger
+  id: ParseDataLogger
+  children:
+  - ParseDataLogger.ContentDataContext
+  langs:
+  - csharp
+  - vb
+  name: ParseDataLogger
+  nameWithType: ParseDataLogger
+  fullName: ParseDataLogger
+  type: Namespace
+  assemblies:
+  - ParseDataLogger
+references:
+- uid: ParseDataLogger.ContentDataContext
+  commentId: T:ParseDataLogger.ContentDataContext
+  parent: ParseDataLogger
+  isExternal: false
+  name: ContentDataContext
+  nameWithType: ContentDataContext
+  fullName: ParseDataLogger.ContentDataContext
+- uid: ParseDataLogger
+  commentId: N:ParseDataLogger
+  isExternal: false
+  name: ParseDataLogger
+  nameWithType: ParseDataLogger
+  fullName: ParseDataLogger

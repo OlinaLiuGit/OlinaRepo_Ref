@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: ParseDocsPages.Migrations
+  commentId: N:ParseDocsPages.Migrations
+  id: ParseDocsPages.Migrations
+  children:
+  - ParseDocsPages.Migrations._20160616
+  - ParseDocsPages.Migrations._2016070501
+  langs:
+  - csharp
+  - vb
+  name: ParseDocsPages.Migrations
+  nameWithType: ParseDocsPages.Migrations
+  fullName: ParseDocsPages.Migrations
+  type: Namespace
+  assemblies:
+  - ParseDocsPages
+references:
+- uid: ParseDocsPages.Migrations._20160616
+  commentId: T:ParseDocsPages.Migrations._20160616
+  isExternal: false
+  name: _20160616
+  nameWithType: _20160616
+  fullName: ParseDocsPages.Migrations._20160616
+- uid: ParseDocsPages.Migrations._2016070501
+  commentId: T:ParseDocsPages.Migrations._2016070501
+  isExternal: false
+  name: _2016070501
+  nameWithType: _2016070501
+  fullName: ParseDocsPages.Migrations._2016070501

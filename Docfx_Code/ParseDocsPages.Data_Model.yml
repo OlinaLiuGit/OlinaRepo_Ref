@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: ParseDocsPages.Data_Model
+  commentId: N:ParseDocsPages.Data_Model
+  id: ParseDocsPages.Data_Model
+  children:
+  - ParseDocsPages.Data_Model.TocModel
+  langs:
+  - csharp
+  - vb
+  name: ParseDocsPages.Data_Model
+  nameWithType: ParseDocsPages.Data_Model
+  fullName: ParseDocsPages.Data_Model
+  type: Namespace
+  assemblies:
+  - ParseDocsPages
+references:
+- uid: ParseDocsPages.Data_Model.TocModel
+  commentId: T:ParseDocsPages.Data_Model.TocModel
+  parent: ParseDocsPages.Data_Model
+  isExternal: false
+  name: TocModel
+  nameWithType: TocModel
+  fullName: ParseDocsPages.Data_Model.TocModel
+- uid: ParseDocsPages.Data_Model
+  commentId: N:ParseDocsPages.Data_Model
+  isExternal: false
+  name: ParseDocsPages.Data_Model
+  nameWithType: ParseDocsPages.Data_Model
+  fullName: ParseDocsPages.Data_Model

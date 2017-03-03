@@ -1,0 +1,658 @@
+### YamlMime:ManagedReference
+items:
+- uid: ParseDocsPages.PageExtractor.DocsExtractor
+  commentId: T:ParseDocsPages.PageExtractor.DocsExtractor
+  id: DocsExtractor
+  parent: ParseDocsPages.PageExtractor
+  children:
+  - ParseDocsPages.PageExtractor.DocsExtractor.InvalidTocModels
+  - ParseDocsPages.PageExtractor.DocsExtractor.TryGetDocsStructure(ParseDocsPages.Data_Model.TocModel,System.String,ParseDocsPages.Data_Model.TocModel,System.Collections.Generic.List{ParseDocsPages.Data_Model.TocModel})
+  - ParseDocsPages.PageExtractor.DocsExtractor.TryGetTocChildren(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: DocsExtractor
+  nameWithType: DocsExtractor
+  fullName: ParseDocsPages.PageExtractor.DocsExtractor
+  type: Class
+  source:
+    id: DocsExtractor
+    path: E:\Test\CATS\ParsePages\ParseDocsPages\PageExtractor\DocsExtractor.cs
+    startLine: 13
+  assemblies:
+  - ParseDocsPages
+  namespace: ParseDocsPages.PageExtractor
+  syntax:
+    content: public class DocsExtractor
+    content.vb: Public Class DocsExtractor
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - ParseDocsPages.PageExtractor.DocsExtractor.ParseCommon.Utilities.SerializeXml``1
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: ParseDocsPages.PageExtractor.DocsExtractor.InvalidTocModels
+  commentId: F:ParseDocsPages.PageExtractor.DocsExtractor.InvalidTocModels
+  id: InvalidTocModels
+  parent: ParseDocsPages.PageExtractor.DocsExtractor
+  langs:
+  - csharp
+  - vb
+  name: InvalidTocModels
+  nameWithType: DocsExtractor.InvalidTocModels
+  fullName: ParseDocsPages.PageExtractor.DocsExtractor.InvalidTocModels
+  type: Field
+  source:
+    id: InvalidTocModels
+    path: E:\Test\CATS\ParsePages\ParseDocsPages\PageExtractor\DocsExtractor.cs
+    startLine: 17
+  assemblies:
+  - ParseDocsPages
+  namespace: ParseDocsPages.PageExtractor
+  syntax:
+    content: public List<TocModel> InvalidTocModels
+    content.vb: Public InvalidTocModels As List(Of TocModel)
+    return:
+      type: System.Collections.Generic.List{ParseDocsPages.Data_Model.TocModel}
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: ParseDocsPages.PageExtractor.DocsExtractor.TryGetTocChildren(System.String,System.String)
+  commentId: M:ParseDocsPages.PageExtractor.DocsExtractor.TryGetTocChildren(System.String,System.String)
+  id: TryGetTocChildren(System.String,System.String)
+  parent: ParseDocsPages.PageExtractor.DocsExtractor
+  langs:
+  - csharp
+  - vb
+  name: TryGetTocChildren(String, String)
+  nameWithType: DocsExtractor.TryGetTocChildren(String, String)
+  fullName: ParseDocsPages.PageExtractor.DocsExtractor.TryGetTocChildren(System.String, System.String)
+  type: Method
+  source:
+    id: TryGetTocChildren
+    path: E:\Test\CATS\ParsePages\ParseDocsPages\PageExtractor\DocsExtractor.cs
+    startLine: 21
+  assemblies:
+  - ParseDocsPages
+  namespace: ParseDocsPages.PageExtractor
+  syntax:
+    content: public List<TocModel> TryGetTocChildren(string specificUrl, string tocRelType)
+    content.vb: Public Function TryGetTocChildren(specificUrl As String, tocRelType As String) As List(Of TocModel)
+    parameters:
+    - id: specificUrl
+      type: System.String
+    - id: tocRelType
+      type: System.String
+    return:
+      type: System.Collections.Generic.List{ParseDocsPages.Data_Model.TocModel}
+  overload: ParseDocsPages.PageExtractor.DocsExtractor.TryGetTocChildren*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: ParseDocsPages.PageExtractor.DocsExtractor.TryGetDocsStructure(ParseDocsPages.Data_Model.TocModel,System.String,ParseDocsPages.Data_Model.TocModel,System.Collections.Generic.List{ParseDocsPages.Data_Model.TocModel})
+  commentId: M:ParseDocsPages.PageExtractor.DocsExtractor.TryGetDocsStructure(ParseDocsPages.Data_Model.TocModel,System.String,ParseDocsPages.Data_Model.TocModel,System.Collections.Generic.List{ParseDocsPages.Data_Model.TocModel})
+  id: TryGetDocsStructure(ParseDocsPages.Data_Model.TocModel,System.String,ParseDocsPages.Data_Model.TocModel,System.Collections.Generic.List{ParseDocsPages.Data_Model.TocModel})
+  parent: ParseDocsPages.PageExtractor.DocsExtractor
+  langs:
+  - csharp
+  - vb
+  name: TryGetDocsStructure(TocModel, String, TocModel, List<TocModel>)
+  nameWithType: DocsExtractor.TryGetDocsStructure(TocModel, String, TocModel, List<TocModel>)
+  fullName: ParseDocsPages.PageExtractor.DocsExtractor.TryGetDocsStructure(ParseDocsPages.Data_Model.TocModel, System.String, ParseDocsPages.Data_Model.TocModel, System.Collections.Generic.List<ParseDocsPages.Data_Model.TocModel>)
+  type: Method
+  source:
+    id: TryGetDocsStructure
+    path: E:\Test\CATS\ParsePages\ParseDocsPages\PageExtractor\DocsExtractor.cs
+    startLine: 35
+  assemblies:
+  - ParseDocsPages
+  namespace: ParseDocsPages.PageExtractor
+  syntax:
+    content: public Task TryGetDocsStructure(TocModel tocModel, string tocRelType, TocModel parent, List<TocModel> parsedTocResult)
+    content.vb: Public Function TryGetDocsStructure(tocModel As TocModel, tocRelType As String, parent As TocModel, parsedTocResult As List(Of TocModel)) As Task
+    parameters:
+    - id: tocModel
+      type: ParseDocsPages.Data_Model.TocModel
+    - id: tocRelType
+      type: System.String
+    - id: parent
+      type: ParseDocsPages.Data_Model.TocModel
+    - id: parsedTocResult
+      type: System.Collections.Generic.List{ParseDocsPages.Data_Model.TocModel}
+    return:
+      type: System.Threading.Tasks.Task
+  overload: ParseDocsPages.PageExtractor.DocsExtractor.TryGetDocsStructure*
+  nameWithType.vb: DocsExtractor.TryGetDocsStructure(TocModel, String, TocModel, List(Of TocModel))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: ParseDocsPages.PageExtractor.DocsExtractor.TryGetDocsStructure(ParseDocsPages.Data_Model.TocModel, System.String, ParseDocsPages.Data_Model.TocModel, System.Collections.Generic.List(Of ParseDocsPages.Data_Model.TocModel))
+  name.vb: TryGetDocsStructure(TocModel, String, TocModel, List(Of TocModel))
+references:
+- uid: ParseDocsPages.PageExtractor
+  commentId: N:ParseDocsPages.PageExtractor
+  isExternal: false
+  name: ParseDocsPages.PageExtractor
+  nameWithType: ParseDocsPages.PageExtractor
+  fullName: ParseDocsPages.PageExtractor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ParseDocsPages.PageExtractor.DocsExtractor.ParseCommon.Utilities.SerializeXml``1
+  commentId: M:ParseCommon.Utilities.SerializeXml``1(``0)
+  parent: ParseCommon.Utilities
+  definition: ParseCommon.Utilities.SerializeXml``1(``0)
+  name: SerializeXml<DocsExtractor>()
+  nameWithType: Utilities.SerializeXml<DocsExtractor>()
+  fullName: ParseCommon.Utilities.SerializeXml<ParseDocsPages.PageExtractor.DocsExtractor>()
+  nameWithType.vb: Utilities.SerializeXml(Of DocsExtractor)()
+  fullName.vb: ParseCommon.Utilities.SerializeXml(Of ParseDocsPages.PageExtractor.DocsExtractor)()
+  name.vb: SerializeXml(Of DocsExtractor)()
+  spec.csharp:
+  - uid: ParseCommon.Utilities.SerializeXml``1
+    name: SerializeXml<DocsExtractor>
+    nameWithType: Utilities.SerializeXml<DocsExtractor>
+    fullName: ParseCommon.Utilities.SerializeXml<ParseDocsPages.PageExtractor.DocsExtractor>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: ParseCommon.Utilities.SerializeXml``1
+    name: SerializeXml(Of DocsExtractor)
+    nameWithType: Utilities.SerializeXml(Of DocsExtractor)
+    fullName: ParseCommon.Utilities.SerializeXml(Of ParseDocsPages.PageExtractor.DocsExtractor)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ParseCommon.Utilities.SerializeXml``1(``0)
+  commentId: M:ParseCommon.Utilities.SerializeXml``1(``0)
+  isExternal: false
+  name: SerializeXml<T>(T)
+  nameWithType: Utilities.SerializeXml<T>(T)
+  fullName: ParseCommon.Utilities.SerializeXml<T>(T)
+  nameWithType.vb: Utilities.SerializeXml(Of T)(T)
+  fullName.vb: ParseCommon.Utilities.SerializeXml(Of T)(T)
+  name.vb: SerializeXml(Of T)(T)
+  spec.csharp:
+  - uid: ParseCommon.Utilities.SerializeXml``1(``0)
+    name: SerializeXml<T>
+    nameWithType: Utilities.SerializeXml<T>
+    fullName: ParseCommon.Utilities.SerializeXml<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: ParseCommon.Utilities.SerializeXml``1(``0)
+    name: SerializeXml(Of T)
+    nameWithType: Utilities.SerializeXml(Of T)
+    fullName: ParseCommon.Utilities.SerializeXml(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ParseCommon.Utilities
+  commentId: T:ParseCommon.Utilities
+  parent: ParseCommon
+  isExternal: false
+  name: Utilities
+  nameWithType: Utilities
+  fullName: ParseCommon.Utilities
+- uid: ParseCommon
+  commentId: N:ParseCommon
+  isExternal: false
+  name: ParseCommon
+  nameWithType: ParseCommon
+  fullName: ParseCommon
+- uid: System.Collections.Generic.List{ParseDocsPages.Data_Model.TocModel}
+  commentId: T:System.Collections.Generic.List{ParseDocsPages.Data_Model.TocModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<TocModel>
+  nameWithType: List<TocModel>
+  fullName: System.Collections.Generic.List<ParseDocsPages.Data_Model.TocModel>
+  nameWithType.vb: List(Of TocModel)
+  fullName.vb: System.Collections.Generic.List(Of ParseDocsPages.Data_Model.TocModel)
+  name.vb: List(Of TocModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: ParseDocsPages.Data_Model.TocModel
+    name: TocModel
+    nameWithType: TocModel
+    fullName: ParseDocsPages.Data_Model.TocModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: ParseDocsPages.Data_Model.TocModel
+    name: TocModel
+    nameWithType: TocModel
+    fullName: ParseDocsPages.Data_Model.TocModel
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: false
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: ParseDocsPages.PageExtractor.DocsExtractor.TryGetTocChildren*
+  commentId: Overload:ParseDocsPages.PageExtractor.DocsExtractor.TryGetTocChildren
+  isExternal: false
+  name: TryGetTocChildren
+  nameWithType: DocsExtractor.TryGetTocChildren
+  fullName: ParseDocsPages.PageExtractor.DocsExtractor.TryGetTocChildren
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: ParseDocsPages.PageExtractor.DocsExtractor.TryGetDocsStructure*
+  commentId: Overload:ParseDocsPages.PageExtractor.DocsExtractor.TryGetDocsStructure
+  isExternal: false
+  name: TryGetDocsStructure
+  nameWithType: DocsExtractor.TryGetDocsStructure
+  fullName: ParseDocsPages.PageExtractor.DocsExtractor.TryGetDocsStructure
+- uid: ParseDocsPages.Data_Model.TocModel
+  commentId: T:ParseDocsPages.Data_Model.TocModel
+  parent: ParseDocsPages.Data_Model
+  isExternal: false
+  name: TocModel
+  nameWithType: TocModel
+  fullName: ParseDocsPages.Data_Model.TocModel
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: ParseDocsPages.Data_Model
+  commentId: N:ParseDocsPages.Data_Model
+  isExternal: false
+  name: ParseDocsPages.Data_Model
+  nameWithType: ParseDocsPages.Data_Model
+  fullName: ParseDocsPages.Data_Model
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: false
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

@@ -1,0 +1,752 @@
+### YamlMime:ManagedReference
+items:
+- uid: ParseTechNetPages.Data_Model.TechNetModel
+  commentId: T:ParseTechNetPages.Data_Model.TechNetModel
+  id: TechNetModel
+  parent: ParseTechNetPages.Data_Model
+  children:
+  - ParseTechNetPages.Data_Model.TechNetModel.Children
+  - ParseTechNetPages.Data_Model.TechNetModel.ClassName
+  - ParseTechNetPages.Data_Model.TechNetModel.DataTocLevel
+  - ParseTechNetPages.Data_Model.TechNetModel.Href
+  - ParseTechNetPages.Data_Model.TechNetModel.Parent
+  - ParseTechNetPages.Data_Model.TechNetModel.TocName
+  langs:
+  - csharp
+  - vb
+  name: TechNetModel
+  nameWithType: TechNetModel
+  fullName: ParseTechNetPages.Data_Model.TechNetModel
+  type: Class
+  source:
+    id: TechNetModel
+    path: E:\Test\CATS\ParsePages\ParseTechNetPages\Data Model\TechNetModel.cs
+    startLine: 8
+  assemblies:
+  - ParseTechNetPages
+  namespace: ParseTechNetPages.Data_Model
+  syntax:
+    content: public class TechNetModel
+    content.vb: Public Class TechNetModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - ParseTechNetPages.Data_Model.TechNetModel.ParseCommon.Utilities.SerializeXml``1
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: ParseTechNetPages.Data_Model.TechNetModel.ClassName
+  commentId: P:ParseTechNetPages.Data_Model.TechNetModel.ClassName
+  id: ClassName
+  parent: ParseTechNetPages.Data_Model.TechNetModel
+  langs:
+  - csharp
+  - vb
+  name: ClassName
+  nameWithType: TechNetModel.ClassName
+  fullName: ParseTechNetPages.Data_Model.TechNetModel.ClassName
+  type: Property
+  source:
+    id: ClassName
+    path: E:\Test\CATS\ParsePages\ParseTechNetPages\Data Model\TechNetModel.cs
+    startLine: 10
+  assemblies:
+  - ParseTechNetPages
+  namespace: ParseTechNetPages.Data_Model
+  syntax:
+    content: public string ClassName { get; set; }
+    content.vb: Public Property ClassName As String
+    parameters: []
+    return:
+      type: System.String
+  overload: ParseTechNetPages.Data_Model.TechNetModel.ClassName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: ParseTechNetPages.Data_Model.TechNetModel.DataTocLevel
+  commentId: P:ParseTechNetPages.Data_Model.TechNetModel.DataTocLevel
+  id: DataTocLevel
+  parent: ParseTechNetPages.Data_Model.TechNetModel
+  langs:
+  - csharp
+  - vb
+  name: DataTocLevel
+  nameWithType: TechNetModel.DataTocLevel
+  fullName: ParseTechNetPages.Data_Model.TechNetModel.DataTocLevel
+  type: Property
+  source:
+    id: DataTocLevel
+    path: E:\Test\CATS\ParsePages\ParseTechNetPages\Data Model\TechNetModel.cs
+    startLine: 12
+  assemblies:
+  - ParseTechNetPages
+  namespace: ParseTechNetPages.Data_Model
+  syntax:
+    content: public string DataTocLevel { get; set; }
+    content.vb: Public Property DataTocLevel As String
+    parameters: []
+    return:
+      type: System.String
+  overload: ParseTechNetPages.Data_Model.TechNetModel.DataTocLevel*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: ParseTechNetPages.Data_Model.TechNetModel.TocName
+  commentId: P:ParseTechNetPages.Data_Model.TechNetModel.TocName
+  id: TocName
+  parent: ParseTechNetPages.Data_Model.TechNetModel
+  langs:
+  - csharp
+  - vb
+  name: TocName
+  nameWithType: TechNetModel.TocName
+  fullName: ParseTechNetPages.Data_Model.TechNetModel.TocName
+  type: Property
+  source:
+    id: TocName
+    path: E:\Test\CATS\ParsePages\ParseTechNetPages\Data Model\TechNetModel.cs
+    startLine: 14
+  assemblies:
+  - ParseTechNetPages
+  namespace: ParseTechNetPages.Data_Model
+  syntax:
+    content: public string TocName { get; set; }
+    content.vb: Public Property TocName As String
+    parameters: []
+    return:
+      type: System.String
+  overload: ParseTechNetPages.Data_Model.TechNetModel.TocName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: ParseTechNetPages.Data_Model.TechNetModel.Href
+  commentId: P:ParseTechNetPages.Data_Model.TechNetModel.Href
+  id: Href
+  parent: ParseTechNetPages.Data_Model.TechNetModel
+  langs:
+  - csharp
+  - vb
+  name: Href
+  nameWithType: TechNetModel.Href
+  fullName: ParseTechNetPages.Data_Model.TechNetModel.Href
+  type: Property
+  source:
+    id: Href
+    path: E:\Test\CATS\ParsePages\ParseTechNetPages\Data Model\TechNetModel.cs
+    startLine: 16
+  assemblies:
+  - ParseTechNetPages
+  namespace: ParseTechNetPages.Data_Model
+  syntax:
+    content: public string Href { get; set; }
+    content.vb: Public Property Href As String
+    parameters: []
+    return:
+      type: System.String
+  overload: ParseTechNetPages.Data_Model.TechNetModel.Href*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: ParseTechNetPages.Data_Model.TechNetModel.Children
+  commentId: P:ParseTechNetPages.Data_Model.TechNetModel.Children
+  id: Children
+  parent: ParseTechNetPages.Data_Model.TechNetModel
+  langs:
+  - csharp
+  - vb
+  name: Children
+  nameWithType: TechNetModel.Children
+  fullName: ParseTechNetPages.Data_Model.TechNetModel.Children
+  type: Property
+  source:
+    id: Children
+    path: E:\Test\CATS\ParsePages\ParseTechNetPages\Data Model\TechNetModel.cs
+    startLine: 18
+  assemblies:
+  - ParseTechNetPages
+  namespace: ParseTechNetPages.Data_Model
+  syntax:
+    content: public List<TechNetModel> Children { get; set; }
+    content.vb: Public Property Children As List(Of TechNetModel)
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{ParseTechNetPages.Data_Model.TechNetModel}
+  overload: ParseTechNetPages.Data_Model.TechNetModel.Children*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: ParseTechNetPages.Data_Model.TechNetModel.Parent
+  commentId: P:ParseTechNetPages.Data_Model.TechNetModel.Parent
+  id: Parent
+  parent: ParseTechNetPages.Data_Model.TechNetModel
+  langs:
+  - csharp
+  - vb
+  name: Parent
+  nameWithType: TechNetModel.Parent
+  fullName: ParseTechNetPages.Data_Model.TechNetModel.Parent
+  type: Property
+  source:
+    id: Parent
+    path: E:\Test\CATS\ParsePages\ParseTechNetPages\Data Model\TechNetModel.cs
+    startLine: 20
+  assemblies:
+  - ParseTechNetPages
+  namespace: ParseTechNetPages.Data_Model
+  syntax:
+    content: public TechNetModel Parent { get; set; }
+    content.vb: Public Property Parent As TechNetModel
+    parameters: []
+    return:
+      type: ParseTechNetPages.Data_Model.TechNetModel
+  overload: ParseTechNetPages.Data_Model.TechNetModel.Parent*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: ParseTechNetPages.Data_Model
+  commentId: N:ParseTechNetPages.Data_Model
+  isExternal: false
+  name: ParseTechNetPages.Data_Model
+  nameWithType: ParseTechNetPages.Data_Model
+  fullName: ParseTechNetPages.Data_Model
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ParseTechNetPages.Data_Model.TechNetModel.ParseCommon.Utilities.SerializeXml``1
+  commentId: M:ParseCommon.Utilities.SerializeXml``1(``0)
+  parent: ParseCommon.Utilities
+  definition: ParseCommon.Utilities.SerializeXml``1(``0)
+  name: SerializeXml<TechNetModel>()
+  nameWithType: Utilities.SerializeXml<TechNetModel>()
+  fullName: ParseCommon.Utilities.SerializeXml<ParseTechNetPages.Data_Model.TechNetModel>()
+  nameWithType.vb: Utilities.SerializeXml(Of TechNetModel)()
+  fullName.vb: ParseCommon.Utilities.SerializeXml(Of ParseTechNetPages.Data_Model.TechNetModel)()
+  name.vb: SerializeXml(Of TechNetModel)()
+  spec.csharp:
+  - uid: ParseCommon.Utilities.SerializeXml``1
+    name: SerializeXml<TechNetModel>
+    nameWithType: Utilities.SerializeXml<TechNetModel>
+    fullName: ParseCommon.Utilities.SerializeXml<ParseTechNetPages.Data_Model.TechNetModel>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: ParseCommon.Utilities.SerializeXml``1
+    name: SerializeXml(Of TechNetModel)
+    nameWithType: Utilities.SerializeXml(Of TechNetModel)
+    fullName: ParseCommon.Utilities.SerializeXml(Of ParseTechNetPages.Data_Model.TechNetModel)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ParseCommon.Utilities.SerializeXml``1(``0)
+  commentId: M:ParseCommon.Utilities.SerializeXml``1(``0)
+  isExternal: false
+  name: SerializeXml<T>(T)
+  nameWithType: Utilities.SerializeXml<T>(T)
+  fullName: ParseCommon.Utilities.SerializeXml<T>(T)
+  nameWithType.vb: Utilities.SerializeXml(Of T)(T)
+  fullName.vb: ParseCommon.Utilities.SerializeXml(Of T)(T)
+  name.vb: SerializeXml(Of T)(T)
+  spec.csharp:
+  - uid: ParseCommon.Utilities.SerializeXml``1(``0)
+    name: SerializeXml<T>
+    nameWithType: Utilities.SerializeXml<T>
+    fullName: ParseCommon.Utilities.SerializeXml<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: ParseCommon.Utilities.SerializeXml``1(``0)
+    name: SerializeXml(Of T)
+    nameWithType: Utilities.SerializeXml(Of T)
+    fullName: ParseCommon.Utilities.SerializeXml(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ParseCommon.Utilities
+  commentId: T:ParseCommon.Utilities
+  parent: ParseCommon
+  isExternal: false
+  name: Utilities
+  nameWithType: Utilities
+  fullName: ParseCommon.Utilities
+- uid: ParseCommon
+  commentId: N:ParseCommon
+  isExternal: false
+  name: ParseCommon
+  nameWithType: ParseCommon
+  fullName: ParseCommon
+- uid: ParseTechNetPages.Data_Model.TechNetModel.ClassName*
+  commentId: Overload:ParseTechNetPages.Data_Model.TechNetModel.ClassName
+  isExternal: false
+  name: ClassName
+  nameWithType: TechNetModel.ClassName
+  fullName: ParseTechNetPages.Data_Model.TechNetModel.ClassName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: ParseTechNetPages.Data_Model.TechNetModel.DataTocLevel*
+  commentId: Overload:ParseTechNetPages.Data_Model.TechNetModel.DataTocLevel
+  isExternal: false
+  name: DataTocLevel
+  nameWithType: TechNetModel.DataTocLevel
+  fullName: ParseTechNetPages.Data_Model.TechNetModel.DataTocLevel
+- uid: ParseTechNetPages.Data_Model.TechNetModel.TocName*
+  commentId: Overload:ParseTechNetPages.Data_Model.TechNetModel.TocName
+  isExternal: false
+  name: TocName
+  nameWithType: TechNetModel.TocName
+  fullName: ParseTechNetPages.Data_Model.TechNetModel.TocName
+- uid: ParseTechNetPages.Data_Model.TechNetModel.Href*
+  commentId: Overload:ParseTechNetPages.Data_Model.TechNetModel.Href
+  isExternal: false
+  name: Href
+  nameWithType: TechNetModel.Href
+  fullName: ParseTechNetPages.Data_Model.TechNetModel.Href
+- uid: ParseTechNetPages.Data_Model.TechNetModel.Children*
+  commentId: Overload:ParseTechNetPages.Data_Model.TechNetModel.Children
+  isExternal: false
+  name: Children
+  nameWithType: TechNetModel.Children
+  fullName: ParseTechNetPages.Data_Model.TechNetModel.Children
+- uid: System.Collections.Generic.List{ParseTechNetPages.Data_Model.TechNetModel}
+  commentId: T:System.Collections.Generic.List{ParseTechNetPages.Data_Model.TechNetModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<TechNetModel>
+  nameWithType: List<TechNetModel>
+  fullName: System.Collections.Generic.List<ParseTechNetPages.Data_Model.TechNetModel>
+  nameWithType.vb: List(Of TechNetModel)
+  fullName.vb: System.Collections.Generic.List(Of ParseTechNetPages.Data_Model.TechNetModel)
+  name.vb: List(Of TechNetModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: ParseTechNetPages.Data_Model.TechNetModel
+    name: TechNetModel
+    nameWithType: TechNetModel
+    fullName: ParseTechNetPages.Data_Model.TechNetModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: ParseTechNetPages.Data_Model.TechNetModel
+    name: TechNetModel
+    nameWithType: TechNetModel
+    fullName: ParseTechNetPages.Data_Model.TechNetModel
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: false
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: ParseTechNetPages.Data_Model.TechNetModel.Parent*
+  commentId: Overload:ParseTechNetPages.Data_Model.TechNetModel.Parent
+  isExternal: false
+  name: Parent
+  nameWithType: TechNetModel.Parent
+  fullName: ParseTechNetPages.Data_Model.TechNetModel.Parent
+- uid: ParseTechNetPages.Data_Model.TechNetModel
+  commentId: T:ParseTechNetPages.Data_Model.TechNetModel
+  parent: ParseTechNetPages.Data_Model
+  isExternal: false
+  name: TechNetModel
+  nameWithType: TechNetModel
+  fullName: ParseTechNetPages.Data_Model.TechNetModel

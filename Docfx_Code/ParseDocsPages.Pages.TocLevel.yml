@@ -1,0 +1,186 @@
+### YamlMime:ManagedReference
+items:
+- uid: ParseDocsPages.Pages.TocLevel
+  commentId: T:ParseDocsPages.Pages.TocLevel
+  id: TocLevel
+  parent: ParseDocsPages.Pages
+  children:
+  - ParseDocsPages.Pages.TocLevel.Children
+  - ParseDocsPages.Pages.TocLevel.Parent
+  langs:
+  - csharp
+  - vb
+  name: TocLevel
+  nameWithType: TocLevel
+  fullName: ParseDocsPages.Pages.TocLevel
+  type: Enum
+  source:
+    id: TocLevel
+    path: E:\Test\CATS\ParsePages\ParseDocsPages\Pages\ParseDocsPages.cs
+    startLine: 46
+  assemblies:
+  - ParseDocsPages
+  namespace: ParseDocsPages.Pages
+  syntax:
+    content: public enum TocLevel
+    content.vb: Public Enum TocLevel
+  extensionMethods:
+  - ParseDocsPages.Pages.TocLevel.ParseCommon.Utilities.SerializeXml``1
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: ParseDocsPages.Pages.TocLevel.Parent
+  commentId: F:ParseDocsPages.Pages.TocLevel.Parent
+  id: Parent
+  parent: ParseDocsPages.Pages.TocLevel
+  langs:
+  - csharp
+  - vb
+  name: Parent
+  nameWithType: TocLevel.Parent
+  fullName: ParseDocsPages.Pages.TocLevel.Parent
+  type: Field
+  source:
+    id: Parent
+    path: E:\Test\CATS\ParsePages\ParseDocsPages\Pages\ParseDocsPages.cs
+    startLine: 48
+  assemblies:
+  - ParseDocsPages
+  namespace: ParseDocsPages.Pages
+  syntax:
+    content: Parent = 0
+    return:
+      type: ParseDocsPages.Pages.TocLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: ParseDocsPages.Pages.TocLevel.Children
+  commentId: F:ParseDocsPages.Pages.TocLevel.Children
+  id: Children
+  parent: ParseDocsPages.Pages.TocLevel
+  langs:
+  - csharp
+  - vb
+  name: Children
+  nameWithType: TocLevel.Children
+  fullName: ParseDocsPages.Pages.TocLevel.Children
+  type: Field
+  source:
+    id: Children
+    path: E:\Test\CATS\ParsePages\ParseDocsPages\Pages\ParseDocsPages.cs
+    startLine: 49
+  assemblies:
+  - ParseDocsPages
+  namespace: ParseDocsPages.Pages
+  syntax:
+    content: Children = 1
+    return:
+      type: ParseDocsPages.Pages.TocLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: ParseDocsPages.Pages
+  commentId: N:ParseDocsPages.Pages
+  isExternal: false
+  name: ParseDocsPages.Pages
+  nameWithType: ParseDocsPages.Pages
+  fullName: ParseDocsPages.Pages
+- uid: ParseDocsPages.Pages.TocLevel.ParseCommon.Utilities.SerializeXml``1
+  commentId: M:ParseCommon.Utilities.SerializeXml``1(``0)
+  parent: ParseCommon.Utilities
+  definition: ParseCommon.Utilities.SerializeXml``1(``0)
+  name: SerializeXml<TocLevel>()
+  nameWithType: Utilities.SerializeXml<TocLevel>()
+  fullName: ParseCommon.Utilities.SerializeXml<ParseDocsPages.Pages.TocLevel>()
+  nameWithType.vb: Utilities.SerializeXml(Of TocLevel)()
+  fullName.vb: ParseCommon.Utilities.SerializeXml(Of ParseDocsPages.Pages.TocLevel)()
+  name.vb: SerializeXml(Of TocLevel)()
+  spec.csharp:
+  - uid: ParseCommon.Utilities.SerializeXml``1
+    name: SerializeXml<TocLevel>
+    nameWithType: Utilities.SerializeXml<TocLevel>
+    fullName: ParseCommon.Utilities.SerializeXml<ParseDocsPages.Pages.TocLevel>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: ParseCommon.Utilities.SerializeXml``1
+    name: SerializeXml(Of TocLevel)
+    nameWithType: Utilities.SerializeXml(Of TocLevel)
+    fullName: ParseCommon.Utilities.SerializeXml(Of ParseDocsPages.Pages.TocLevel)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ParseCommon.Utilities.SerializeXml``1(``0)
+  commentId: M:ParseCommon.Utilities.SerializeXml``1(``0)
+  isExternal: false
+  name: SerializeXml<T>(T)
+  nameWithType: Utilities.SerializeXml<T>(T)
+  fullName: ParseCommon.Utilities.SerializeXml<T>(T)
+  nameWithType.vb: Utilities.SerializeXml(Of T)(T)
+  fullName.vb: ParseCommon.Utilities.SerializeXml(Of T)(T)
+  name.vb: SerializeXml(Of T)(T)
+  spec.csharp:
+  - uid: ParseCommon.Utilities.SerializeXml``1(``0)
+    name: SerializeXml<T>
+    nameWithType: Utilities.SerializeXml<T>
+    fullName: ParseCommon.Utilities.SerializeXml<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: ParseCommon.Utilities.SerializeXml``1(``0)
+    name: SerializeXml(Of T)
+    nameWithType: Utilities.SerializeXml(Of T)
+    fullName: ParseCommon.Utilities.SerializeXml(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ParseCommon.Utilities
+  commentId: T:ParseCommon.Utilities
+  parent: ParseCommon
+  isExternal: false
+  name: Utilities
+  nameWithType: Utilities
+  fullName: ParseCommon.Utilities
+- uid: ParseCommon
+  commentId: N:ParseCommon
+  isExternal: false
+  name: ParseCommon
+  nameWithType: ParseCommon
+  fullName: ParseCommon
+- uid: ParseDocsPages.Pages.TocLevel
+  commentId: T:ParseDocsPages.Pages.TocLevel
+  parent: ParseDocsPages.Pages
+  isExternal: false
+  name: TocLevel
+  nameWithType: TocLevel
+  fullName: ParseDocsPages.Pages.TocLevel

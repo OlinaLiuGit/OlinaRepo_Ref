@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: ParseTechNetPages.DAL
+  commentId: N:ParseTechNetPages.DAL
+  id: ParseTechNetPages.DAL
+  children:
+  - ParseTechNetPages.DAL.ParseTechNetContext
+  langs:
+  - csharp
+  - vb
+  name: ParseTechNetPages.DAL
+  nameWithType: ParseTechNetPages.DAL
+  fullName: ParseTechNetPages.DAL
+  type: Namespace
+  assemblies:
+  - ParseTechNetPages
+references:
+- uid: ParseTechNetPages.DAL.ParseTechNetContext
+  commentId: T:ParseTechNetPages.DAL.ParseTechNetContext
+  parent: ParseTechNetPages.DAL
+  isExternal: false
+  name: ParseTechNetContext
+  nameWithType: ParseTechNetContext
+  fullName: ParseTechNetPages.DAL.ParseTechNetContext
+- uid: ParseTechNetPages.DAL
+  commentId: N:ParseTechNetPages.DAL
+  isExternal: false
+  name: ParseTechNetPages.DAL
+  nameWithType: ParseTechNetPages.DAL
+  fullName: ParseTechNetPages.DAL

@@ -1,0 +1,58 @@
+### YamlMime:ManagedReference
+items:
+- uid: ParseTechNetPages.Pages
+  commentId: N:ParseTechNetPages.Pages
+  id: ParseTechNetPages.Pages
+  children:
+  - ParseTechNetPages.Pages.ParseTechNetPages
+  - ParseTechNetPages.Pages.PathStructure
+  - ParseTechNetPages.Pages.TechNetSelectors
+  - ParseTechNetPages.Pages.TocLevel
+  - ParseTechNetPages.Pages.TopicLevel
+  langs:
+  - csharp
+  - vb
+  name: ParseTechNetPages.Pages
+  nameWithType: ParseTechNetPages.Pages
+  fullName: ParseTechNetPages.Pages
+  type: Namespace
+  assemblies:
+  - ParseTechNetPages
+references:
+- uid: ParseTechNetPages.Pages.ParseTechNetPages
+  commentId: T:ParseTechNetPages.Pages.ParseTechNetPages
+  isExternal: false
+  name: ParseTechNetPages
+  nameWithType: ParseTechNetPages
+  fullName: ParseTechNetPages.Pages.ParseTechNetPages
+- uid: ParseTechNetPages.Pages.PathStructure
+  commentId: T:ParseTechNetPages.Pages.PathStructure
+  isExternal: false
+  name: PathStructure
+  nameWithType: PathStructure
+  fullName: ParseTechNetPages.Pages.PathStructure
+- uid: ParseTechNetPages.Pages.TopicLevel
+  commentId: T:ParseTechNetPages.Pages.TopicLevel
+  isExternal: false
+  name: TopicLevel
+  nameWithType: TopicLevel
+  fullName: ParseTechNetPages.Pages.TopicLevel
+- uid: ParseTechNetPages.Pages.TocLevel
+  commentId: T:ParseTechNetPages.Pages.TocLevel
+  parent: ParseTechNetPages.Pages
+  isExternal: false
+  name: TocLevel
+  nameWithType: TocLevel
+  fullName: ParseTechNetPages.Pages.TocLevel
+- uid: ParseTechNetPages.Pages.TechNetSelectors
+  commentId: T:ParseTechNetPages.Pages.TechNetSelectors
+  isExternal: false
+  name: TechNetSelectors
+  nameWithType: TechNetSelectors
+  fullName: ParseTechNetPages.Pages.TechNetSelectors
+- uid: ParseTechNetPages.Pages
+  commentId: N:ParseTechNetPages.Pages
+  isExternal: false
+  name: ParseTechNetPages.Pages
+  nameWithType: ParseTechNetPages.Pages
+  fullName: ParseTechNetPages.Pages

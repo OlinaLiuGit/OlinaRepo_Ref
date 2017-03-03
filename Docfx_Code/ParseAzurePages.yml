@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: ParseAzurePages
+  commentId: N:ParseAzurePages
+  id: ParseAzurePages
+  children:
+  - ParseAzurePages.ParseAzurePages
+  langs:
+  - csharp
+  - vb
+  name: ParseAzurePages
+  nameWithType: ParseAzurePages
+  fullName: ParseAzurePages
+  type: Namespace
+  assemblies:
+  - ParseAzurePages
+references:
+- uid: ParseAzurePages.ParseAzurePages
+  commentId: T:ParseAzurePages.ParseAzurePages
+  isExternal: false
+  name: ParseAzurePages
+  nameWithType: ParseAzurePages
+  fullName: ParseAzurePages.ParseAzurePages

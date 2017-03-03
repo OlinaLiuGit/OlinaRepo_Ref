@@ -1,0 +1,699 @@
+### YamlMime:ManagedReference
+items:
+- uid: ParseTechNetPages.StringResources
+  commentId: T:ParseTechNetPages.StringResources
+  id: StringResources
+  parent: ParseTechNetPages
+  children:
+  - ParseTechNetPages.StringResources.ClassAttribute
+  - ParseTechNetPages.StringResources.ClearRecords
+  - ParseTechNetPages.StringResources.DataTocLevel
+  - ParseTechNetPages.StringResources.LinkAttribute
+  - ParseTechNetPages.StringResources.Mscmpnm
+  - ParseTechNetPages.StringResources.OutPutFilePath
+  - ParseTechNetPages.StringResources.SpanAttribute
+  - ParseTechNetPages.StringResources.TechNetMainPage
+  - ParseTechNetPages.StringResources.TocCollapsed
+  - ParseTechNetPages.StringResources.TocEmpty
+  - ParseTechNetPages.StringResources.TocExpanded
+  langs:
+  - csharp
+  - vb
+  name: StringResources
+  nameWithType: StringResources
+  fullName: ParseTechNetPages.StringResources
+  type: Class
+  source:
+    id: StringResources
+    path: E:\Test\CATS\ParsePages\ParseTechNetPages\StringResources.cs
+    startLine: 9
+  assemblies:
+  - ParseTechNetPages
+  namespace: ParseTechNetPages
+  syntax:
+    content: public static class StringResources
+    content.vb: Public Module StringResources
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: ParseTechNetPages.StringResources.TechNetMainPage
+  commentId: F:ParseTechNetPages.StringResources.TechNetMainPage
+  id: TechNetMainPage
+  parent: ParseTechNetPages.StringResources
+  langs:
+  - csharp
+  - vb
+  name: TechNetMainPage
+  nameWithType: StringResources.TechNetMainPage
+  fullName: ParseTechNetPages.StringResources.TechNetMainPage
+  type: Field
+  source:
+    id: TechNetMainPage
+    path: E:\Test\CATS\ParsePages\ParseTechNetPages\StringResources.cs
+    startLine: 11
+  assemblies:
+  - ParseTechNetPages
+  namespace: ParseTechNetPages
+  syntax:
+    content: public static readonly string TechNetMainPage
+    content.vb: Public Shared ReadOnly TechNetMainPage As String
+    return:
+      type: System.String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: ParseTechNetPages.StringResources.OutPutFilePath
+  commentId: F:ParseTechNetPages.StringResources.OutPutFilePath
+  id: OutPutFilePath
+  parent: ParseTechNetPages.StringResources
+  langs:
+  - csharp
+  - vb
+  name: OutPutFilePath
+  nameWithType: StringResources.OutPutFilePath
+  fullName: ParseTechNetPages.StringResources.OutPutFilePath
+  type: Field
+  source:
+    id: OutPutFilePath
+    path: E:\Test\CATS\ParsePages\ParseTechNetPages\StringResources.cs
+    startLine: 13
+  assemblies:
+  - ParseTechNetPages
+  namespace: ParseTechNetPages
+  syntax:
+    content: public static readonly string OutPutFilePath
+    content.vb: Public Shared ReadOnly OutPutFilePath As String
+    return:
+      type: System.String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: ParseTechNetPages.StringResources.ClearRecords
+  commentId: F:ParseTechNetPages.StringResources.ClearRecords
+  id: ClearRecords
+  parent: ParseTechNetPages.StringResources
+  langs:
+  - csharp
+  - vb
+  name: ClearRecords
+  nameWithType: StringResources.ClearRecords
+  fullName: ParseTechNetPages.StringResources.ClearRecords
+  type: Field
+  source:
+    id: ClearRecords
+    path: E:\Test\CATS\ParsePages\ParseTechNetPages\StringResources.cs
+    startLine: 15
+  assemblies:
+  - ParseTechNetPages
+  namespace: ParseTechNetPages
+  syntax:
+    content: public static readonly string ClearRecords
+    content.vb: Public Shared ReadOnly ClearRecords As String
+    return:
+      type: System.String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: ParseTechNetPages.StringResources.DataTocLevel
+  commentId: F:ParseTechNetPages.StringResources.DataTocLevel
+  id: DataTocLevel
+  parent: ParseTechNetPages.StringResources
+  langs:
+  - csharp
+  - vb
+  name: DataTocLevel
+  nameWithType: StringResources.DataTocLevel
+  fullName: ParseTechNetPages.StringResources.DataTocLevel
+  type: Field
+  source:
+    id: DataTocLevel
+    path: E:\Test\CATS\ParsePages\ParseTechNetPages\StringResources.cs
+    startLine: 17
+  assemblies:
+  - ParseTechNetPages
+  namespace: ParseTechNetPages
+  syntax:
+    content: public static readonly string DataTocLevel
+    content.vb: Public Shared ReadOnly DataTocLevel As String
+    return:
+      type: System.String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: ParseTechNetPages.StringResources.ClassAttribute
+  commentId: F:ParseTechNetPages.StringResources.ClassAttribute
+  id: ClassAttribute
+  parent: ParseTechNetPages.StringResources
+  langs:
+  - csharp
+  - vb
+  name: ClassAttribute
+  nameWithType: StringResources.ClassAttribute
+  fullName: ParseTechNetPages.StringResources.ClassAttribute
+  type: Field
+  source:
+    id: ClassAttribute
+    path: E:\Test\CATS\ParsePages\ParseTechNetPages\StringResources.cs
+    startLine: 19
+  assemblies:
+  - ParseTechNetPages
+  namespace: ParseTechNetPages
+  syntax:
+    content: public static readonly string ClassAttribute
+    content.vb: Public Shared ReadOnly ClassAttribute As String
+    return:
+      type: System.String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: ParseTechNetPages.StringResources.LinkAttribute
+  commentId: F:ParseTechNetPages.StringResources.LinkAttribute
+  id: LinkAttribute
+  parent: ParseTechNetPages.StringResources
+  langs:
+  - csharp
+  - vb
+  name: LinkAttribute
+  nameWithType: StringResources.LinkAttribute
+  fullName: ParseTechNetPages.StringResources.LinkAttribute
+  type: Field
+  source:
+    id: LinkAttribute
+    path: E:\Test\CATS\ParsePages\ParseTechNetPages\StringResources.cs
+    startLine: 21
+  assemblies:
+  - ParseTechNetPages
+  namespace: ParseTechNetPages
+  syntax:
+    content: public static readonly string LinkAttribute
+    content.vb: Public Shared ReadOnly LinkAttribute As String
+    return:
+      type: System.String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: ParseTechNetPages.StringResources.SpanAttribute
+  commentId: F:ParseTechNetPages.StringResources.SpanAttribute
+  id: SpanAttribute
+  parent: ParseTechNetPages.StringResources
+  langs:
+  - csharp
+  - vb
+  name: SpanAttribute
+  nameWithType: StringResources.SpanAttribute
+  fullName: ParseTechNetPages.StringResources.SpanAttribute
+  type: Field
+  source:
+    id: SpanAttribute
+    path: E:\Test\CATS\ParsePages\ParseTechNetPages\StringResources.cs
+    startLine: 23
+  assemblies:
+  - ParseTechNetPages
+  namespace: ParseTechNetPages
+  syntax:
+    content: public static readonly string SpanAttribute
+    content.vb: Public Shared ReadOnly SpanAttribute As String
+    return:
+      type: System.String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: ParseTechNetPages.StringResources.TocExpanded
+  commentId: F:ParseTechNetPages.StringResources.TocExpanded
+  id: TocExpanded
+  parent: ParseTechNetPages.StringResources
+  langs:
+  - csharp
+  - vb
+  name: TocExpanded
+  nameWithType: StringResources.TocExpanded
+  fullName: ParseTechNetPages.StringResources.TocExpanded
+  type: Field
+  source:
+    id: TocExpanded
+    path: E:\Test\CATS\ParsePages\ParseTechNetPages\StringResources.cs
+    startLine: 25
+  assemblies:
+  - ParseTechNetPages
+  namespace: ParseTechNetPages
+  syntax:
+    content: public static readonly string TocExpanded
+    content.vb: Public Shared ReadOnly TocExpanded As String
+    return:
+      type: System.String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: ParseTechNetPages.StringResources.TocCollapsed
+  commentId: F:ParseTechNetPages.StringResources.TocCollapsed
+  id: TocCollapsed
+  parent: ParseTechNetPages.StringResources
+  langs:
+  - csharp
+  - vb
+  name: TocCollapsed
+  nameWithType: StringResources.TocCollapsed
+  fullName: ParseTechNetPages.StringResources.TocCollapsed
+  type: Field
+  source:
+    id: TocCollapsed
+    path: E:\Test\CATS\ParsePages\ParseTechNetPages\StringResources.cs
+    startLine: 27
+  assemblies:
+  - ParseTechNetPages
+  namespace: ParseTechNetPages
+  syntax:
+    content: public static readonly string TocCollapsed
+    content.vb: Public Shared ReadOnly TocCollapsed As String
+    return:
+      type: System.String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: ParseTechNetPages.StringResources.TocEmpty
+  commentId: F:ParseTechNetPages.StringResources.TocEmpty
+  id: TocEmpty
+  parent: ParseTechNetPages.StringResources
+  langs:
+  - csharp
+  - vb
+  name: TocEmpty
+  nameWithType: StringResources.TocEmpty
+  fullName: ParseTechNetPages.StringResources.TocEmpty
+  type: Field
+  source:
+    id: TocEmpty
+    path: E:\Test\CATS\ParsePages\ParseTechNetPages\StringResources.cs
+    startLine: 29
+  assemblies:
+  - ParseTechNetPages
+  namespace: ParseTechNetPages
+  syntax:
+    content: public static readonly string TocEmpty
+    content.vb: Public Shared ReadOnly TocEmpty As String
+    return:
+      type: System.String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: ParseTechNetPages.StringResources.Mscmpnm
+  commentId: F:ParseTechNetPages.StringResources.Mscmpnm
+  id: Mscmpnm
+  parent: ParseTechNetPages.StringResources
+  langs:
+  - csharp
+  - vb
+  name: Mscmpnm
+  nameWithType: StringResources.Mscmpnm
+  fullName: ParseTechNetPages.StringResources.Mscmpnm
+  type: Field
+  source:
+    id: Mscmpnm
+    path: E:\Test\CATS\ParsePages\ParseTechNetPages\StringResources.cs
+    startLine: 31
+  assemblies:
+  - ParseTechNetPages
+  namespace: ParseTechNetPages
+  syntax:
+    content: public static readonly string Mscmpnm
+    content.vb: Public Shared ReadOnly Mscmpnm As String
+    return:
+      type: System.String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: ParseTechNetPages
+  commentId: N:ParseTechNetPages
+  isExternal: false
+  name: ParseTechNetPages
+  nameWithType: ParseTechNetPages
+  fullName: ParseTechNetPages
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

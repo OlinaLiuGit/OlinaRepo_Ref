@@ -1,0 +1,558 @@
+### YamlMime:ManagedReference
+items:
+- uid: ParseCommon.HttpClient
+  commentId: T:ParseCommon.HttpClient
+  id: HttpClient
+  parent: ParseCommon
+  children:
+  - ParseCommon.HttpClient.#ctor
+  - ParseCommon.HttpClient.GetWebPageContent(System.String,System.String,System.String)
+  - ParseCommon.HttpClient.Singleton
+  langs:
+  - csharp
+  - vb
+  name: HttpClient
+  nameWithType: HttpClient
+  fullName: ParseCommon.HttpClient
+  type: Class
+  source:
+    id: HttpClient
+    path: E:\Test\CATS\ParsePages\ParseCommon\HTTPClient.cs
+    startLine: 6
+  assemblies:
+  - ParseCommon
+  namespace: ParseCommon
+  syntax:
+    content: public class HttpClient
+    content.vb: Public Class HttpClient
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - ParseCommon.HttpClient.ParseCommon.Utilities.SerializeXml``1
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: ParseCommon.HttpClient.#ctor
+  commentId: M:ParseCommon.HttpClient.#ctor
+  id: '#ctor'
+  parent: ParseCommon.HttpClient
+  langs:
+  - csharp
+  - vb
+  name: HttpClient()
+  nameWithType: HttpClient.HttpClient()
+  fullName: ParseCommon.HttpClient.HttpClient()
+  type: Constructor
+  source:
+    id: .ctor
+    path: E:\Test\CATS\ParsePages\ParseCommon\HTTPClient.cs
+    startLine: 10
+  assemblies:
+  - ParseCommon
+  namespace: ParseCommon
+  syntax:
+    content: public HttpClient()
+    content.vb: Public Sub New
+  overload: ParseCommon.HttpClient.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: ParseCommon.HttpClient.Singleton
+  commentId: P:ParseCommon.HttpClient.Singleton
+  id: Singleton
+  parent: ParseCommon.HttpClient
+  langs:
+  - csharp
+  - vb
+  name: Singleton
+  nameWithType: HttpClient.Singleton
+  fullName: ParseCommon.HttpClient.Singleton
+  type: Property
+  source:
+    id: Singleton
+    path: E:\Test\CATS\ParsePages\ParseCommon\HTTPClient.cs
+    startLine: 17
+  assemblies:
+  - ParseCommon
+  namespace: ParseCommon
+  syntax:
+    content: public static HttpClient Singleton { get; }
+    content.vb: Public Shared ReadOnly Property Singleton As HttpClient
+    parameters: []
+    return:
+      type: ParseCommon.HttpClient
+  overload: ParseCommon.HttpClient.Singleton*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: ParseCommon.HttpClient.GetWebPageContent(System.String,System.String,System.String)
+  commentId: M:ParseCommon.HttpClient.GetWebPageContent(System.String,System.String,System.String)
+  id: GetWebPageContent(System.String,System.String,System.String)
+  parent: ParseCommon.HttpClient
+  langs:
+  - csharp
+  - vb
+  name: GetWebPageContent(String, String, String)
+  nameWithType: HttpClient.GetWebPageContent(String, String, String)
+  fullName: ParseCommon.HttpClient.GetWebPageContent(System.String, System.String, System.String)
+  type: Method
+  source:
+    id: GetWebPageContent
+    path: E:\Test\CATS\ParsePages\ParseCommon\HTTPClient.cs
+    startLine: 25
+  assemblies:
+  - ParseCommon
+  namespace: ParseCommon
+  summary: "\nGet web page content of specific url\n"
+  example: []
+  syntax:
+    content: public ResponseStringModel GetWebPageContent(string url, string authorization, string cookie)
+    content.vb: Public Function GetWebPageContent(url As String, authorization As String, cookie As String) As ResponseStringModel
+    parameters:
+    - id: url
+      type: System.String
+      description: Specific url
+    - id: authorization
+      type: System.String
+      description: ''
+    - id: cookie
+      type: System.String
+    return:
+      type: ParseCommon.ResponseStringModel
+      description: ''
+  overload: ParseCommon.HttpClient.GetWebPageContent*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: ParseCommon
+  commentId: N:ParseCommon
+  isExternal: false
+  name: ParseCommon
+  nameWithType: ParseCommon
+  fullName: ParseCommon
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ParseCommon.HttpClient.ParseCommon.Utilities.SerializeXml``1
+  commentId: M:ParseCommon.Utilities.SerializeXml``1(``0)
+  parent: ParseCommon.Utilities
+  definition: ParseCommon.Utilities.SerializeXml``1(``0)
+  name: SerializeXml<HttpClient>()
+  nameWithType: Utilities.SerializeXml<HttpClient>()
+  fullName: ParseCommon.Utilities.SerializeXml<ParseCommon.HttpClient>()
+  nameWithType.vb: Utilities.SerializeXml(Of HttpClient)()
+  fullName.vb: ParseCommon.Utilities.SerializeXml(Of ParseCommon.HttpClient)()
+  name.vb: SerializeXml(Of HttpClient)()
+  spec.csharp:
+  - uid: ParseCommon.Utilities.SerializeXml``1
+    name: SerializeXml<HttpClient>
+    nameWithType: Utilities.SerializeXml<HttpClient>
+    fullName: ParseCommon.Utilities.SerializeXml<ParseCommon.HttpClient>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: ParseCommon.Utilities.SerializeXml``1
+    name: SerializeXml(Of HttpClient)
+    nameWithType: Utilities.SerializeXml(Of HttpClient)
+    fullName: ParseCommon.Utilities.SerializeXml(Of ParseCommon.HttpClient)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ParseCommon.Utilities.SerializeXml``1(``0)
+  commentId: M:ParseCommon.Utilities.SerializeXml``1(``0)
+  isExternal: false
+  name: SerializeXml<T>(T)
+  nameWithType: Utilities.SerializeXml<T>(T)
+  fullName: ParseCommon.Utilities.SerializeXml<T>(T)
+  nameWithType.vb: Utilities.SerializeXml(Of T)(T)
+  fullName.vb: ParseCommon.Utilities.SerializeXml(Of T)(T)
+  name.vb: SerializeXml(Of T)(T)
+  spec.csharp:
+  - uid: ParseCommon.Utilities.SerializeXml``1(``0)
+    name: SerializeXml<T>
+    nameWithType: Utilities.SerializeXml<T>
+    fullName: ParseCommon.Utilities.SerializeXml<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: ParseCommon.Utilities.SerializeXml``1(``0)
+    name: SerializeXml(Of T)
+    nameWithType: Utilities.SerializeXml(Of T)
+    fullName: ParseCommon.Utilities.SerializeXml(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ParseCommon.Utilities
+  commentId: T:ParseCommon.Utilities
+  parent: ParseCommon
+  isExternal: false
+  name: Utilities
+  nameWithType: Utilities
+  fullName: ParseCommon.Utilities
+- uid: ParseCommon.HttpClient.#ctor*
+  commentId: Overload:ParseCommon.HttpClient.#ctor
+  isExternal: false
+  name: HttpClient
+  nameWithType: HttpClient.HttpClient
+  fullName: ParseCommon.HttpClient.HttpClient
+- uid: ParseCommon.HttpClient.Singleton*
+  commentId: Overload:ParseCommon.HttpClient.Singleton
+  isExternal: false
+  name: Singleton
+  nameWithType: HttpClient.Singleton
+  fullName: ParseCommon.HttpClient.Singleton
+- uid: ParseCommon.HttpClient
+  commentId: T:ParseCommon.HttpClient
+  parent: ParseCommon
+  isExternal: false
+  name: HttpClient
+  nameWithType: HttpClient
+  fullName: ParseCommon.HttpClient
+- uid: ParseCommon.HttpClient.GetWebPageContent*
+  commentId: Overload:ParseCommon.HttpClient.GetWebPageContent
+  isExternal: false
+  name: GetWebPageContent
+  nameWithType: HttpClient.GetWebPageContent
+  fullName: ParseCommon.HttpClient.GetWebPageContent
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: ParseCommon.ResponseStringModel
+  commentId: T:ParseCommon.ResponseStringModel
+  parent: ParseCommon
+  isExternal: false
+  name: ResponseStringModel
+  nameWithType: ResponseStringModel
+  fullName: ParseCommon.ResponseStringModel

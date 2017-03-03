@@ -1,0 +1,51 @@
+### YamlMime:ManagedReference
+items:
+- uid: ParseDocsPages.Pages
+  commentId: N:ParseDocsPages.Pages
+  id: ParseDocsPages.Pages
+  children:
+  - ParseDocsPages.Pages.ParseDocsPages
+  - ParseDocsPages.Pages.PathStructure
+  - ParseDocsPages.Pages.TocLevel
+  - ParseDocsPages.Pages.TopicLevel
+  langs:
+  - csharp
+  - vb
+  name: ParseDocsPages.Pages
+  nameWithType: ParseDocsPages.Pages
+  fullName: ParseDocsPages.Pages
+  type: Namespace
+  assemblies:
+  - ParseDocsPages
+references:
+- uid: ParseDocsPages.Pages.ParseDocsPages
+  commentId: T:ParseDocsPages.Pages.ParseDocsPages
+  isExternal: false
+  name: ParseDocsPages
+  nameWithType: ParseDocsPages
+  fullName: ParseDocsPages.Pages.ParseDocsPages
+- uid: ParseDocsPages.Pages.PathStructure
+  commentId: T:ParseDocsPages.Pages.PathStructure
+  isExternal: false
+  name: PathStructure
+  nameWithType: PathStructure
+  fullName: ParseDocsPages.Pages.PathStructure
+- uid: ParseDocsPages.Pages.TopicLevel
+  commentId: T:ParseDocsPages.Pages.TopicLevel
+  isExternal: false
+  name: TopicLevel
+  nameWithType: TopicLevel
+  fullName: ParseDocsPages.Pages.TopicLevel
+- uid: ParseDocsPages.Pages.TocLevel
+  commentId: T:ParseDocsPages.Pages.TocLevel
+  parent: ParseDocsPages.Pages
+  isExternal: false
+  name: TocLevel
+  nameWithType: TocLevel
+  fullName: ParseDocsPages.Pages.TocLevel
+- uid: ParseDocsPages.Pages
+  commentId: N:ParseDocsPages.Pages
+  isExternal: false
+  name: ParseDocsPages.Pages
+  nameWithType: ParseDocsPages.Pages
+  fullName: ParseDocsPages.Pages

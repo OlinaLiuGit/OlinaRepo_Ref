@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: ParseMSDNPages
+  commentId: N:ParseMSDNPages
+  id: ParseMSDNPages
+  children:
+  - ParseMSDNPages.ParseMSDNPages
+  langs:
+  - csharp
+  - vb
+  name: ParseMSDNPages
+  nameWithType: ParseMSDNPages
+  fullName: ParseMSDNPages
+  type: Namespace
+  assemblies:
+  - ParseMSDNPages
+references:
+- uid: ParseMSDNPages.ParseMSDNPages
+  commentId: T:ParseMSDNPages.ParseMSDNPages
+  isExternal: false
+  name: ParseMSDNPages
+  nameWithType: ParseMSDNPages
+  fullName: ParseMSDNPages.ParseMSDNPages

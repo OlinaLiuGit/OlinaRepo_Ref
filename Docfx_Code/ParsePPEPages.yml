@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: ParsePPEPages
+  commentId: N:ParsePPEPages
+  id: ParsePPEPages
+  children:
+  - ParsePPEPages.ParsePPEPages
+  langs:
+  - csharp
+  - vb
+  name: ParsePPEPages
+  nameWithType: ParsePPEPages
+  fullName: ParsePPEPages
+  type: Namespace
+  assemblies:
+  - ParsePPEPages
+references:
+- uid: ParsePPEPages.ParsePPEPages
+  commentId: T:ParsePPEPages.ParsePPEPages
+  isExternal: false
+  name: ParsePPEPages
+  nameWithType: ParsePPEPages
+  fullName: ParsePPEPages.ParsePPEPages

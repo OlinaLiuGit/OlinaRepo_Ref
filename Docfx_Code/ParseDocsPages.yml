@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: ParseDocsPages
+  commentId: N:ParseDocsPages
+  id: ParseDocsPages
+  children:
+  - ParseDocsPages.DocsPagesTestCases
+  - ParseDocsPages.StringResources
+  langs:
+  - csharp
+  - vb
+  name: ParseDocsPages
+  nameWithType: ParseDocsPages
+  fullName: ParseDocsPages
+  type: Namespace
+  assemblies:
+  - ParseDocsPages
+references:
+- uid: ParseDocsPages.DocsPagesTestCases
+  commentId: T:ParseDocsPages.DocsPagesTestCases
+  isExternal: false
+  name: DocsPagesTestCases
+  nameWithType: DocsPagesTestCases
+  fullName: ParseDocsPages.DocsPagesTestCases
+- uid: ParseDocsPages.StringResources
+  commentId: T:ParseDocsPages.StringResources
+  isExternal: false
+  name: StringResources
+  nameWithType: StringResources
+  fullName: ParseDocsPages.StringResources

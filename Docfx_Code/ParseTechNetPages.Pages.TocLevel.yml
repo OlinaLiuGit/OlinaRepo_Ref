@@ -1,0 +1,186 @@
+### YamlMime:ManagedReference
+items:
+- uid: ParseTechNetPages.Pages.TocLevel
+  commentId: T:ParseTechNetPages.Pages.TocLevel
+  id: TocLevel
+  parent: ParseTechNetPages.Pages
+  children:
+  - ParseTechNetPages.Pages.TocLevel.Children
+  - ParseTechNetPages.Pages.TocLevel.Parent
+  langs:
+  - csharp
+  - vb
+  name: TocLevel
+  nameWithType: TocLevel
+  fullName: ParseTechNetPages.Pages.TocLevel
+  type: Enum
+  source:
+    id: TocLevel
+    path: E:\Test\CATS\ParsePages\ParseTechNetPages\Pages\ParseTechNetPages.cs
+    startLine: 46
+  assemblies:
+  - ParseTechNetPages
+  namespace: ParseTechNetPages.Pages
+  syntax:
+    content: public enum TocLevel
+    content.vb: Public Enum TocLevel
+  extensionMethods:
+  - ParseTechNetPages.Pages.TocLevel.ParseCommon.Utilities.SerializeXml``1
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: ParseTechNetPages.Pages.TocLevel.Parent
+  commentId: F:ParseTechNetPages.Pages.TocLevel.Parent
+  id: Parent
+  parent: ParseTechNetPages.Pages.TocLevel
+  langs:
+  - csharp
+  - vb
+  name: Parent
+  nameWithType: TocLevel.Parent
+  fullName: ParseTechNetPages.Pages.TocLevel.Parent
+  type: Field
+  source:
+    id: Parent
+    path: E:\Test\CATS\ParsePages\ParseTechNetPages\Pages\ParseTechNetPages.cs
+    startLine: 48
+  assemblies:
+  - ParseTechNetPages
+  namespace: ParseTechNetPages.Pages
+  syntax:
+    content: Parent = 0
+    return:
+      type: ParseTechNetPages.Pages.TocLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: ParseTechNetPages.Pages.TocLevel.Children
+  commentId: F:ParseTechNetPages.Pages.TocLevel.Children
+  id: Children
+  parent: ParseTechNetPages.Pages.TocLevel
+  langs:
+  - csharp
+  - vb
+  name: Children
+  nameWithType: TocLevel.Children
+  fullName: ParseTechNetPages.Pages.TocLevel.Children
+  type: Field
+  source:
+    id: Children
+    path: E:\Test\CATS\ParsePages\ParseTechNetPages\Pages\ParseTechNetPages.cs
+    startLine: 49
+  assemblies:
+  - ParseTechNetPages
+  namespace: ParseTechNetPages.Pages
+  syntax:
+    content: Children = 1
+    return:
+      type: ParseTechNetPages.Pages.TocLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: ParseTechNetPages.Pages
+  commentId: N:ParseTechNetPages.Pages
+  isExternal: false
+  name: ParseTechNetPages.Pages
+  nameWithType: ParseTechNetPages.Pages
+  fullName: ParseTechNetPages.Pages
+- uid: ParseTechNetPages.Pages.TocLevel.ParseCommon.Utilities.SerializeXml``1
+  commentId: M:ParseCommon.Utilities.SerializeXml``1(``0)
+  parent: ParseCommon.Utilities
+  definition: ParseCommon.Utilities.SerializeXml``1(``0)
+  name: SerializeXml<TocLevel>()
+  nameWithType: Utilities.SerializeXml<TocLevel>()
+  fullName: ParseCommon.Utilities.SerializeXml<ParseTechNetPages.Pages.TocLevel>()
+  nameWithType.vb: Utilities.SerializeXml(Of TocLevel)()
+  fullName.vb: ParseCommon.Utilities.SerializeXml(Of ParseTechNetPages.Pages.TocLevel)()
+  name.vb: SerializeXml(Of TocLevel)()
+  spec.csharp:
+  - uid: ParseCommon.Utilities.SerializeXml``1
+    name: SerializeXml<TocLevel>
+    nameWithType: Utilities.SerializeXml<TocLevel>
+    fullName: ParseCommon.Utilities.SerializeXml<ParseTechNetPages.Pages.TocLevel>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: ParseCommon.Utilities.SerializeXml``1
+    name: SerializeXml(Of TocLevel)
+    nameWithType: Utilities.SerializeXml(Of TocLevel)
+    fullName: ParseCommon.Utilities.SerializeXml(Of ParseTechNetPages.Pages.TocLevel)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ParseCommon.Utilities.SerializeXml``1(``0)
+  commentId: M:ParseCommon.Utilities.SerializeXml``1(``0)
+  isExternal: false
+  name: SerializeXml<T>(T)
+  nameWithType: Utilities.SerializeXml<T>(T)
+  fullName: ParseCommon.Utilities.SerializeXml<T>(T)
+  nameWithType.vb: Utilities.SerializeXml(Of T)(T)
+  fullName.vb: ParseCommon.Utilities.SerializeXml(Of T)(T)
+  name.vb: SerializeXml(Of T)(T)
+  spec.csharp:
+  - uid: ParseCommon.Utilities.SerializeXml``1(``0)
+    name: SerializeXml<T>
+    nameWithType: Utilities.SerializeXml<T>
+    fullName: ParseCommon.Utilities.SerializeXml<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: ParseCommon.Utilities.SerializeXml``1(``0)
+    name: SerializeXml(Of T)
+    nameWithType: Utilities.SerializeXml(Of T)
+    fullName: ParseCommon.Utilities.SerializeXml(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ParseCommon.Utilities
+  commentId: T:ParseCommon.Utilities
+  parent: ParseCommon
+  isExternal: false
+  name: Utilities
+  nameWithType: Utilities
+  fullName: ParseCommon.Utilities
+- uid: ParseCommon
+  commentId: N:ParseCommon
+  isExternal: false
+  name: ParseCommon
+  nameWithType: ParseCommon
+  fullName: ParseCommon
+- uid: ParseTechNetPages.Pages.TocLevel
+  commentId: T:ParseTechNetPages.Pages.TocLevel
+  parent: ParseTechNetPages.Pages
+  isExternal: false
+  name: TocLevel
+  nameWithType: TocLevel
+  fullName: ParseTechNetPages.Pages.TocLevel

@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: ParseDocsPages.PageExtractor
+  commentId: N:ParseDocsPages.PageExtractor
+  id: ParseDocsPages.PageExtractor
+  children:
+  - ParseDocsPages.PageExtractor.DocsExtractor
+  langs:
+  - csharp
+  - vb
+  name: ParseDocsPages.PageExtractor
+  nameWithType: ParseDocsPages.PageExtractor
+  fullName: ParseDocsPages.PageExtractor
+  type: Namespace
+  assemblies:
+  - ParseDocsPages
+references:
+- uid: ParseDocsPages.PageExtractor.DocsExtractor
+  commentId: T:ParseDocsPages.PageExtractor.DocsExtractor
+  isExternal: false
+  name: DocsExtractor
+  nameWithType: DocsExtractor
+  fullName: ParseDocsPages.PageExtractor.DocsExtractor

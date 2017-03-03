@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: ParseTechNetPages
+  commentId: N:ParseTechNetPages
+  id: ParseTechNetPages
+  children:
+  - ParseTechNetPages.StringResources
+  - ParseTechNetPages.TechNetPagesTestCases
+  - ParseTechNetPages.WebInterface
+  langs:
+  - csharp
+  - vb
+  name: ParseTechNetPages
+  nameWithType: ParseTechNetPages
+  fullName: ParseTechNetPages
+  type: Namespace
+  assemblies:
+  - ParseTechNetPages
+references:
+- uid: ParseTechNetPages.TechNetPagesTestCases
+  commentId: T:ParseTechNetPages.TechNetPagesTestCases
+  isExternal: false
+  name: TechNetPagesTestCases
+  nameWithType: TechNetPagesTestCases
+  fullName: ParseTechNetPages.TechNetPagesTestCases
+- uid: ParseTechNetPages.StringResources
+  commentId: T:ParseTechNetPages.StringResources
+  isExternal: false
+  name: StringResources
+  nameWithType: StringResources
+  fullName: ParseTechNetPages.StringResources
+- uid: ParseTechNetPages.WebInterface
+  commentId: T:ParseTechNetPages.WebInterface
+  parent: ParseTechNetPages
+  isExternal: false
+  name: WebInterface
+  nameWithType: WebInterface
+  fullName: ParseTechNetPages.WebInterface
+- uid: ParseTechNetPages
+  commentId: N:ParseTechNetPages
+  isExternal: false
+  name: ParseTechNetPages
+  nameWithType: ParseTechNetPages
+  fullName: ParseTechNetPages

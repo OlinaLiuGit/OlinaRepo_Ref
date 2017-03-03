@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: ParseTechNetPages.PageExtractor
+  commentId: N:ParseTechNetPages.PageExtractor
+  id: ParseTechNetPages.PageExtractor
+  children:
+  - ParseTechNetPages.PageExtractor.TechNetExtractor
+  langs:
+  - csharp
+  - vb
+  name: ParseTechNetPages.PageExtractor
+  nameWithType: ParseTechNetPages.PageExtractor
+  fullName: ParseTechNetPages.PageExtractor
+  type: Namespace
+  assemblies:
+  - ParseTechNetPages
+references:
+- uid: ParseTechNetPages.PageExtractor.TechNetExtractor
+  commentId: T:ParseTechNetPages.PageExtractor.TechNetExtractor
+  isExternal: false
+  name: TechNetExtractor
+  nameWithType: TechNetExtractor
+  fullName: ParseTechNetPages.PageExtractor.TechNetExtractor

@@ -1,0 +1,587 @@
+### YamlMime:ManagedReference
+items:
+- uid: ParseCommon.StringExtension
+  commentId: T:ParseCommon.StringExtension
+  id: StringExtension
+  parent: ParseCommon
+  children:
+  - ParseCommon.StringExtension.AddEndBackslash(System.String)
+  - ParseCommon.StringExtension.AddStartBackslash(System.String)
+  - ParseCommon.StringExtension.GetHostUrl(System.String)
+  - ParseCommon.StringExtension.GetShortName(System.String)
+  - ParseCommon.StringExtension.RemoveBackslash(System.String)
+  langs:
+  - csharp
+  - vb
+  name: StringExtension
+  nameWithType: StringExtension
+  fullName: ParseCommon.StringExtension
+  type: Class
+  source:
+    id: StringExtension
+    path: E:\Test\CATS\ParsePages\ParseCommon\StringExtension.cs
+    startLine: 4
+  assemblies:
+  - ParseCommon
+  namespace: ParseCommon
+  syntax:
+    content: public static class StringExtension
+    content.vb: Public Module StringExtension
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: ParseCommon.StringExtension.GetShortName(System.String)
+  commentId: M:ParseCommon.StringExtension.GetShortName(System.String)
+  id: GetShortName(System.String)
+  isExtensionMethod: true
+  parent: ParseCommon.StringExtension
+  langs:
+  - csharp
+  - vb
+  name: GetShortName(String)
+  nameWithType: StringExtension.GetShortName(String)
+  fullName: ParseCommon.StringExtension.GetShortName(System.String)
+  type: Method
+  source:
+    id: GetShortName
+    path: E:\Test\CATS\ParsePages\ParseCommon\StringExtension.cs
+    startLine: 11
+  assemblies:
+  - ParseCommon
+  namespace: ParseCommon
+  summary: "\nGet short name\n"
+  example: []
+  syntax:
+    content: public static string GetShortName(this string target)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetShortName(target As String) As String
+    parameters:
+    - id: target
+      type: System.String
+      description: Specific url
+    return:
+      type: System.String
+      description: Return short name
+  overload: ParseCommon.StringExtension.GetShortName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: ParseCommon.StringExtension.RemoveBackslash(System.String)
+  commentId: M:ParseCommon.StringExtension.RemoveBackslash(System.String)
+  id: RemoveBackslash(System.String)
+  isExtensionMethod: true
+  parent: ParseCommon.StringExtension
+  langs:
+  - csharp
+  - vb
+  name: RemoveBackslash(String)
+  nameWithType: StringExtension.RemoveBackslash(String)
+  fullName: ParseCommon.StringExtension.RemoveBackslash(System.String)
+  type: Method
+  source:
+    id: RemoveBackslash
+    path: E:\Test\CATS\ParsePages\ParseCommon\StringExtension.cs
+    startLine: 26
+  assemblies:
+  - ParseCommon
+  namespace: ParseCommon
+  summary: "\nRemove backslash(\"/\") of specific url\n"
+  example: []
+  syntax:
+    content: public static string RemoveBackslash(this string target)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function RemoveBackslash(target As String) As String
+    parameters:
+    - id: target
+      type: System.String
+      description: Specific url
+    return:
+      type: System.String
+      description: Return specific url without end backslash
+  overload: ParseCommon.StringExtension.RemoveBackslash*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: ParseCommon.StringExtension.AddEndBackslash(System.String)
+  commentId: M:ParseCommon.StringExtension.AddEndBackslash(System.String)
+  id: AddEndBackslash(System.String)
+  isExtensionMethod: true
+  parent: ParseCommon.StringExtension
+  langs:
+  - csharp
+  - vb
+  name: AddEndBackslash(String)
+  nameWithType: StringExtension.AddEndBackslash(String)
+  fullName: ParseCommon.StringExtension.AddEndBackslash(System.String)
+  type: Method
+  source:
+    id: AddEndBackslash
+    path: E:\Test\CATS\ParsePages\ParseCommon\StringExtension.cs
+    startLine: 37
+  assemblies:
+  - ParseCommon
+  namespace: ParseCommon
+  summary: "\nAdd backslash(\"/\") to the end of specific url\n"
+  example: []
+  syntax:
+    content: public static string AddEndBackslash(this string target)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddEndBackslash(target As String) As String
+    parameters:
+    - id: target
+      type: System.String
+      description: Specific url
+    return:
+      type: System.String
+      description: Rerutn specific url with end backslash
+  overload: ParseCommon.StringExtension.AddEndBackslash*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: ParseCommon.StringExtension.AddStartBackslash(System.String)
+  commentId: M:ParseCommon.StringExtension.AddStartBackslash(System.String)
+  id: AddStartBackslash(System.String)
+  isExtensionMethod: true
+  parent: ParseCommon.StringExtension
+  langs:
+  - csharp
+  - vb
+  name: AddStartBackslash(String)
+  nameWithType: StringExtension.AddStartBackslash(String)
+  fullName: ParseCommon.StringExtension.AddStartBackslash(System.String)
+  type: Method
+  source:
+    id: AddStartBackslash
+    path: E:\Test\CATS\ParsePages\ParseCommon\StringExtension.cs
+    startLine: 47
+  assemblies:
+  - ParseCommon
+  namespace: ParseCommon
+  summary: "\nAdd backslash(\"/\") to the beginning of specific url\n"
+  example: []
+  syntax:
+    content: public static string AddStartBackslash(this string target)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddStartBackslash(target As String) As String
+    parameters:
+    - id: target
+      type: System.String
+      description: Specific url
+    return:
+      type: System.String
+      description: Rerutn specific url with beginning backslash
+  overload: ParseCommon.StringExtension.AddStartBackslash*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: ParseCommon.StringExtension.GetHostUrl(System.String)
+  commentId: M:ParseCommon.StringExtension.GetHostUrl(System.String)
+  id: GetHostUrl(System.String)
+  isExtensionMethod: true
+  parent: ParseCommon.StringExtension
+  langs:
+  - csharp
+  - vb
+  name: GetHostUrl(String)
+  nameWithType: StringExtension.GetHostUrl(String)
+  fullName: ParseCommon.StringExtension.GetHostUrl(System.String)
+  type: Method
+  source:
+    id: GetHostUrl
+    path: E:\Test\CATS\ParsePages\ParseCommon\StringExtension.cs
+    startLine: 58
+  assemblies:
+  - ParseCommon
+  namespace: ParseCommon
+  summary: "\nGet url without part from the last backslash \n"
+  example: []
+  syntax:
+    content: public static string GetHostUrl(this string url)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetHostUrl(url As String) As String
+    parameters:
+    - id: url
+      type: System.String
+      description: Original url
+    return:
+      type: System.String
+      description: Return url without part from the last backslash
+  overload: ParseCommon.StringExtension.GetHostUrl*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: ParseCommon
+  commentId: N:ParseCommon
+  isExternal: false
+  name: ParseCommon
+  nameWithType: ParseCommon
+  fullName: ParseCommon
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ParseCommon.StringExtension.GetShortName*
+  commentId: Overload:ParseCommon.StringExtension.GetShortName
+  isExternal: false
+  name: GetShortName
+  nameWithType: StringExtension.GetShortName
+  fullName: ParseCommon.StringExtension.GetShortName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: ParseCommon.StringExtension.RemoveBackslash*
+  commentId: Overload:ParseCommon.StringExtension.RemoveBackslash
+  isExternal: false
+  name: RemoveBackslash
+  nameWithType: StringExtension.RemoveBackslash
+  fullName: ParseCommon.StringExtension.RemoveBackslash
+- uid: ParseCommon.StringExtension.AddEndBackslash*
+  commentId: Overload:ParseCommon.StringExtension.AddEndBackslash
+  isExternal: false
+  name: AddEndBackslash
+  nameWithType: StringExtension.AddEndBackslash
+  fullName: ParseCommon.StringExtension.AddEndBackslash
+- uid: ParseCommon.StringExtension.AddStartBackslash*
+  commentId: Overload:ParseCommon.StringExtension.AddStartBackslash
+  isExternal: false
+  name: AddStartBackslash
+  nameWithType: StringExtension.AddStartBackslash
+  fullName: ParseCommon.StringExtension.AddStartBackslash
+- uid: ParseCommon.StringExtension.GetHostUrl*
+  commentId: Overload:ParseCommon.StringExtension.GetHostUrl
+  isExternal: false
+  name: GetHostUrl
+  nameWithType: StringExtension.GetHostUrl
+  fullName: ParseCommon.StringExtension.GetHostUrl
