@@ -1,4 +1,4 @@
-### YamlMime:ManagedReference[test]
+### YamlMime:ManagedReference
 items:
 - uid: ParseCommon.HttpClient
   commentId: T:ParseCommon.HttpClient
