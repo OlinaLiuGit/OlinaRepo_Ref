@@ -1,4 +1,4 @@
-### YamlMime:ManagedReference
+### YamlMime:ManagedReference[test]
 items:
 - uid: ParseCommon.HttpClient
   commentId: T:ParseCommon.HttpClient
@@ -10,7 +10,6 @@ items:
   - ParseCommon.HttpClient.Singleton
   langs:
   - csharp
-  - vb
   name: HttpClient
   nameWithType: HttpClient
   fullName: ParseCommon.HttpClient
